@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [doLoginLogout]">
+  <parameter name="browserpath" value="*firefox"/>
+  <parameter name="multiwin" value="true"/>
+  <parameter name="testdataDir" value="/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/testdata/"/>
+  <parameter name="serverport" value="4444"/>
+  <parameter name="screenshotdir" value="/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/screenshot/"/>
+  <parameter name="baseurl" value="http://apigee.com/"/>
+  <parameter name="seleniumserverhost" value="localhost"/>
+  <listeners>
+    <listener class-name="com.apigee.test.base.SeleniumRCListener"/>
+  </listeners>
+  <test name="main test One(failed)">
+    <classes>
+      <class name="com.apigee.test.loginlogout.TestLoginLogout">
+        <methods>
+          <include name="stop"/>
+          <include name="testSendInvite" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="setScreenShotDir"/>
+        </methods>
+      </class> <!-- com.apigee.test.loginlogout.TestLoginLogout -->
+    </classes>
+  </test> <!-- main test One(failed) -->
+</suite> <!-- Failed suite [doLoginLogout] -->
