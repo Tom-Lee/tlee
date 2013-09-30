@@ -64,7 +64,7 @@ public class Library{
             }
 
 		}catch (Exception e){
-			log.error("==>Error during logout stumble " + e.getMessage());
+			log.error("==>Error during logout" + e.getMessage());
 		}
 	}
 	
