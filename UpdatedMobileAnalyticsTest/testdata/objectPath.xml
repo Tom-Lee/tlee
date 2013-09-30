@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+
+  <page name="LoginPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="email_id" type="input"><locator><![CDATA[//input[@id="email"]]]></locator></uiobject>
+      <uiobject name="password_id" type="input"><locator><![CDATA[//input[@id="password"]]]></locator></uiobject>
+      <uiobject name="submit_id" type="submit"><locator><![CDATA[//button[@id="btnSubmit"]]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="LogoutPage">
+    <location><![CDATA[https://accounts.jupiter.apigee.net/accounts/dashboard]]></location>
+    <uielements>
+      <uiobject name="email_link" type="link"><locator><![CDATA[//a[@id="email_id"]]]></locator></uiobject>
+      <uiobject name="signout_link" type="link"><locator><![CDATA[link=Sign Out]]></locator></uiobject>
+    </uielements>
+  </page>
+
+ 
+</pages> 
