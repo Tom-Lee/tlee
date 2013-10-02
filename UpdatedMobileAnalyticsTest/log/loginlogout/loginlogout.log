@@ -1,9 +1,0 @@
-09-30-13 13:59:57 INFO [com.apigee.test.loginlogout.TestLoginLogout] - Start to test login logout
-09-30-13 13:59:58 INFO [com.apigee.test.loginlogout.TestLoginLogout] - //input[@id="email"] is present
-09-30-13 13:59:58 INFO [com.apigee.test.loginlogout.TestLoginLogout] - //input[@id="password"] is present
-09-30-13 13:59:58 INFO [com.apigee.test.loginlogout.TestLoginLogout] - Enter email, tlee+ditapp@apigee.com, and password, 123Rcheck,
-09-30-13 13:59:58 INFO [com.apigee.test.loginlogout.TestLoginLogout] - //button[@id="btnSubmit"] is present
-09-30-13 13:59:59 INFO [com.apigee.test.loginlogout.TestLoginLogout] - Log in the account
-09-30-13 13:59:59 INFO [com.apigee.test.loginlogout.TestLoginLogout] - //a[@id="email_id"] is present
-09-30-13 14:00:04 INFO [com.apigee.test.loginlogout.TestLoginLogout] - Log out successfully
-09-30-13 14:00:04 INFO [com.apigee.test.loginlogout.TestLoginLogout] - End to test login logout
