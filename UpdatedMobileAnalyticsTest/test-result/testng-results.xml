@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="doAppLogsAnalytics" duration-ms="334224" started-at="2013-10-02T00:51:35Z" finished-at="2013-10-02T00:57:09Z">
+    <groups>
+    </groups>
+    <test name="main test One" duration-ms="334224" started-at="2013-10-02T00:51:35Z" finished-at="2013-10-02T00:57:09Z">
+      <class name="com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics">
+        <test-method status="PASS" signature="setScreenShotDir(java.lang.String)[pri:0, instance:null(com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics)]" name="setScreenShotDir" is-config="true" duration-ms="7" started-at="2013-10-01T17:51:35Z" finished-at="2013-10-01T17:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/screenshot/appLogsAnalytics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setScreenShotDir -->
+        <test-method status="PASS" signature="init(java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:null(com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics)]" name="init" is-config="true" duration-ms="3543" started-at="2013-10-01T17:51:35Z" finished-at="2013-10-01T17:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://accounts.apigee.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testAppLogsAnalytics(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null(com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics)]" name="testAppLogsAnalytics" duration-ms="330609" started-at="2013-10-01T17:51:38Z" finished-at="2013-10-01T17:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://accounts.apigee.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/screenshot/appLogsAnalytics]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/testdata/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppLogsAnalytics -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:null(com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics)]" name="stop" is-config="true" duration-ms="65" started-at="2013-10-01T17:57:09Z" finished-at="2013-10-01T17:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics -->
+    </test> <!-- main test One -->
+  </suite> <!-- doAppLogsAnalytics -->
+</testng-results>

@@ -1,0 +1,54 @@
+
+10-01-13 17:51:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Start to test App Logs Analytics page
+10-01-13 17:51:41 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - //input[@id="email"] is present
+10-01-13 17:51:41 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - //input[@id="password"] is present
+10-01-13 17:51:41 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Enter email, tlee+4@apigee.com, and password, 123Rcheck,
+10-01-13 17:51:41 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - //button[@id="btnSubmit"] is present
+10-01-13 17:51:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Dashboard
+10-01-13 17:51:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Log in the account
+10-01-13 17:51:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the element: //div[@id='dashboard_container']/div[3]/div[1]/div[2]/div[1]/button
+10-01-13 17:51:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Click 'Open Analytics'
+10-01-13 17:51:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - App Overview is present
+10-01-13 17:51:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the element: //a[@id='j_id45:monitorAction-0']/div
+10-01-13 17:51:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Click monitoring icon of sandbox
+10-01-13 17:52:00 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Select 'Acme Bank Demo App' app
+10-01-13 17:52:00 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Error
+10-01-13 17:52:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access App Logs Analysis tab
+10-01-13 17:52:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors
+10-01-13 17:52:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors tab
+10-01-13 17:52:21 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-01-13 17:52:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-01-13 17:52:41 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-01-13 17:52:51 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-01-13 17:53:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-01-13 17:53:13 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by App Versions
+10-01-13 17:53:13 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by App Versions tab
+10-01-13 17:53:23 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-01-13 17:53:33 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-01-13 17:53:43 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-01-13 17:53:53 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-01-13 17:54:03 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-01-13 17:54:14 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by Config Overrides
+10-01-13 17:54:14 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by Config Overrides tab
+10-01-13 17:54:24 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-01-13 17:54:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-01-13 17:54:45 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-01-13 17:54:55 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-01-13 17:55:05 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-01-13 17:55:16 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by Device Platforms
+10-01-13 17:55:16 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by Device Platforms tab
+10-01-13 17:55:26 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-01-13 17:55:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-01-13 17:55:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-01-13 17:55:56 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-01-13 17:56:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-01-13 17:56:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by Device Models
+10-01-13 17:56:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by Device Models tab
+10-01-13 17:56:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-01-13 17:56:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-01-13 17:56:48 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-01-13 17:56:58 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-01-13 17:57:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-01-13 17:57:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Network Performance tab
+10-01-13 17:57:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access App Usage tab
+10-01-13 17:57:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - End to test App Logs Analytics page
