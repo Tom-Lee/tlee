@@ -1,0 +1,197 @@
+
+10-02-13 11:17:55 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Start to test App Logs Analytics page
+10-02-13 11:17:57 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - //input[@id="email"] is present
+10-02-13 11:17:57 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - //input[@id="password"] is present
+10-02-13 11:17:57 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Enter email, tlee+4@apigee.com, and password, 123Rcheck,
+10-02-13 11:17:57 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - //button[@id="btnSubmit"] is present
+10-02-13 11:17:59 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Dashboard
+10-02-13 11:17:59 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Log in the account
+10-02-13 11:17:59 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the element: //div[@id='dashboard_container']/div[3]/div[1]/div[2]/div[1]/button
+10-02-13 11:17:59 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Click 'Open Analytics'
+10-02-13 11:18:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - App Overview is present
+10-02-13 11:18:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the element: //a[@id='j_id45:monitorAction-0']/div
+10-02-13 11:18:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Click monitoring icon of sandbox
+10-02-13 11:18:17 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Select 'Acme Bank Demo App' app
+10-02-13 11:18:17 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Error
+10-02-13 11:18:23 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access App Logs Analysis tab
+10-02-13 11:18:27 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors
+10-02-13 11:18:27 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors tab
+10-02-13 11:18:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1h tab
+10-02-13 11:18:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 5
+10-02-13 11:18:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 335
+10-02-13 11:18:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 547
+10-02-13 11:18:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 335
+10-02-13 11:18:35 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 547
+10-02-13 11:18:43 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-02-13 11:18:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 17
+10-02-13 11:18:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 952
+10-02-13 11:18:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 1622
+10-02-13 11:18:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 952
+10-02-13 11:18:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:18:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-02-13 11:18:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 35
+10-02-13 11:18:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 1903
+10-02-13 11:18:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 3257
+10-02-13 11:18:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 1903
+10-02-13 11:18:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:19:00 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-02-13 11:19:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 71
+10-02-13 11:19:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 3797
+10-02-13 11:19:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 6520
+10-02-13 11:19:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 3797
+10-02-13 11:19:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:19:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-02-13 11:19:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 140
+10-02-13 11:19:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 7878
+10-02-13 11:19:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 13203
+10-02-13 11:19:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 7878
+10-02-13 11:19:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:19:17 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-02-13 11:19:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 974
+10-02-13 11:19:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 56130
+10-02-13 11:19:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 92936
+10-02-13 11:19:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 56130
+10-02-13 11:19:18 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:19:26 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by App Versions
+10-02-13 11:19:26 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by App Versions tab
+10-02-13 11:19:34 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1h tab
+10-02-13 11:19:34 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 6
+10-02-13 11:19:34 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 331
+10-02-13 11:19:34 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 543
+10-02-13 11:19:34 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 331
+10-02-13 11:19:34 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 543
+10-02-13 11:19:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-02-13 11:19:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 18
+10-02-13 11:19:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 948
+10-02-13 11:19:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 1618
+10-02-13 11:19:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 948
+10-02-13 11:19:42 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:19:50 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-02-13 11:19:50 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 36
+10-02-13 11:19:50 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 1900
+10-02-13 11:19:50 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 3253
+10-02-13 11:19:50 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 1900
+10-02-13 11:19:50 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:19:58 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-02-13 11:19:58 ERROR [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Error during validateErrorLogPagesERROR: Element //html/body/div/div/div/section/div[2]/table/tbody/tr/td[1] not found
+10-02-13 11:20:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-02-13 11:20:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 140
+10-02-13 11:20:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 7878
+10-02-13 11:20:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 13203
+10-02-13 11:20:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 7878
+10-02-13 11:20:06 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:20:14 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-02-13 11:20:15 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 974
+10-02-13 11:20:15 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 56130
+10-02-13 11:20:15 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 92936
+10-02-13 11:20:15 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 56130
+10-02-13 11:20:15 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:20:23 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by Config Overrides
+10-02-13 11:20:23 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by Config Overrides tab
+10-02-13 11:20:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1h tab
+10-02-13 11:20:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 6
+10-02-13 11:20:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 334
+10-02-13 11:20:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 544
+10-02-13 11:20:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 334
+10-02-13 11:20:31 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 544
+10-02-13 11:20:39 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-02-13 11:20:39 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 18
+10-02-13 11:20:39 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 950
+10-02-13 11:20:39 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 1621
+10-02-13 11:20:39 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 950
+10-02-13 11:20:39 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:20:47 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-02-13 11:20:47 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 36
+10-02-13 11:20:47 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 1895
+10-02-13 11:20:47 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 3243
+10-02-13 11:20:47 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 1895
+10-02-13 11:20:47 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:20:55 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-02-13 11:20:56 ERROR [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Error during validateErrorLogPagesERROR: Element //html/body/div/div/div/section/div[2]/table/tbody/tr/td[1] not found
+10-02-13 11:21:04 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-02-13 11:21:04 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 140
+10-02-13 11:21:04 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 7878
+10-02-13 11:21:04 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 13203
+10-02-13 11:21:04 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 7878
+10-02-13 11:21:04 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:21:12 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-02-13 11:21:12 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 974
+10-02-13 11:21:12 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 56130
+10-02-13 11:21:12 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 92936
+10-02-13 11:21:12 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 56130
+10-02-13 11:21:12 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:21:20 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by Device Platforms
+10-02-13 11:21:20 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by Device Platforms tab
+10-02-13 11:21:29 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1h tab
+10-02-13 11:21:29 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 6
+10-02-13 11:21:29 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 326
+10-02-13 11:21:29 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 534
+10-02-13 11:21:29 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 326
+10-02-13 11:21:29 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 534
+10-02-13 11:21:37 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-02-13 11:21:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 18
+10-02-13 11:21:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 948
+10-02-13 11:21:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 1619
+10-02-13 11:21:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 948
+10-02-13 11:21:38 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:21:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-02-13 11:21:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 36
+10-02-13 11:21:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 1901
+10-02-13 11:21:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 3252
+10-02-13 11:21:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 1901
+10-02-13 11:21:46 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:21:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-02-13 11:21:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 72
+10-02-13 11:21:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 3795
+10-02-13 11:21:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 6517
+10-02-13 11:21:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 3795
+10-02-13 11:21:54 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:22:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-02-13 11:22:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 140
+10-02-13 11:22:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 7878
+10-02-13 11:22:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 13203
+10-02-13 11:22:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 7878
+10-02-13 11:22:02 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:22:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-02-13 11:22:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 974
+10-02-13 11:22:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 56130
+10-02-13 11:22:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 92936
+10-02-13 11:22:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 56130
+10-02-13 11:22:11 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:22:19 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found the text: Errors by Device Models
+10-02-13 11:22:19 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Errors by Device Models tab
+10-02-13 11:22:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1h tab
+10-02-13 11:22:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 6
+10-02-13 11:22:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 331
+10-02-13 11:22:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 542
+10-02-13 11:22:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 331
+10-02-13 11:22:28 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 542
+10-02-13 11:22:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 3h tab
+10-02-13 11:22:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 18
+10-02-13 11:22:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 949
+10-02-13 11:22:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 1620
+10-02-13 11:22:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 949
+10-02-13 11:22:36 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:22:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 6h tab
+10-02-13 11:22:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 36
+10-02-13 11:22:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 1898
+10-02-13 11:22:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 3252
+10-02-13 11:22:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 1898
+10-02-13 11:22:44 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:22:52 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 12h tab
+10-02-13 11:22:53 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 36
+10-02-13 11:22:53 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 1898
+10-02-13 11:22:53 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 3252
+10-02-13 11:22:53 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 1898
+10-02-13 11:22:53 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:23:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 24h tab
+10-02-13 11:23:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Crash: 140
+10-02-13 11:23:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Error: 7878
+10-02-13 11:23:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Event: 13203
+10-02-13 11:23:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Total Warning: 7878
+10-02-13 11:23:01 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Found Application Log Event: 1000
+10-02-13 11:23:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access 1 week tab
+10-02-13 11:23:09 ERROR [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Error during validateErrorLogPagesERROR: Element //div[@class='row-fluid']/div/section/form[2]/h2 not found
+10-02-13 11:23:09 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access Network Performance tab
+10-02-13 11:23:10 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - Access App Usage tab
+10-02-13 11:23:14 INFO [com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics] - End to test App Logs Analytics page

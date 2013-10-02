@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="doAll">
+	<parameter name="serverport" value="4444"/>
+	<parameter name="multiwin" value="true"/>
+	<listeners>
+		<listener class-name="com.apigee.test.base.SeleniumRCListener"/>
+	</listeners>	
+	<parameter name="seleniumserverhost" value="localhost"/>
+	<parameter name="browserpath" value="*firefox" />
+	<parameter name="baseurl" value="http://accounts.apigee.com" />
+	<!-- parameter name="baseurl" value="http://accounts.jupiter.apigee.net"/-->
+	<parameter name="screenshotdir" value="/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/screenshot/loginlogout" /> 
+	<parameter name="testdataDir" value="/Users/ApigeeCorporation/Automation/EclipseWorkspace/UpdatedMobileAnalyticsTest/testdata/" />
+	<test verbose="2" name="main test One"> 
+        <classes> 
+            <class name="com.apigee.test.loginlogout.TestLoginLogout"/> 
+            <class name="com.apigee.test.appLogsAnalytics.TestAppLogsAnalytics"/> 
+  	</classes>
+   </test>
+</suite>

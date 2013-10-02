@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+
+  <page name="LoginPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="email_id" type="input"><locator><![CDATA[//input[@id="email"]]]></locator></uiobject>
+      <uiobject name="password_id" type="input"><locator><![CDATA[//input[@id="password"]]]></locator></uiobject>
+      <uiobject name="submit_id" type="submit"><locator><![CDATA[//button[@id="btnSubmit"]]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="LogoutPage">
+    <location><![CDATA[https://accounts.jupiter.apigee.net/accounts/dashboard]]></location>
+    <uielements>
+      <uiobject name="email_link" type="link"><locator><![CDATA[//a[@id="email_id"]]]></locator></uiobject>
+      <uiobject name="signout_link" type="link"><locator><![CDATA[link=Sign Out]]></locator></uiobject>
+    </uielements>
+  </page>
+
+  <page name="DashboradPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="mobileAnalytics_id" type="button"><locator><![CDATA[//div[@id='dashboard_container']/div[3]/div[1]/div[2]/div[1]/button]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="ActionPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="monitor_id" type="image"><locator><![CDATA[//a[@id='j_id45:monitorAction-0']/div]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="MobileAnalyticsPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+    	<uiobject name="dropdown_id" type="image"><locator><![CDATA[name=j_id99:j_id100]]></locator></uiobject>
+    	<uiobject name="app_id" type="image"><locator><![CDATA[label=Acme Bank Demo App]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="MobileAnalyticsPageErrorTab">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+    	
+    	<uiobject name="totalError_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[1]]]></locator></uiobject>
+    	<uiobject name="totalWarning_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[2]]]></locator></uiobject>
+    	<uiobject name="totalEvent_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[3]]]></locator></uiobject>
+    	<uiobject name="applicationCrash_id" type="text"><locator><![CDATA[//div[@class='row-fluid']/div/section/form[1]/h2]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_id" type="text"><locator><![CDATA[//div[@class='row-fluid']/div/section/form[2]/h2]]></locator></uiobject>
+    	
+    	<uiobject name="totalError_0" type="text"><locator><![CDATA[306]]></locator></uiobject>
+    	<uiobject name="totalWarning_0" type="text"><locator><![CDATA[123]]></locator></uiobject>
+    	<uiobject name="totalEvent_0" type="text"><locator><![CDATA[544]]></locator></uiobject>
+    	<uiobject name="applicationCrash_0" type="text"><locator><![CDATA[Application Crashes : 6]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_0" type="text"><locator><![CDATA[Application Log Events: 544]]></locator></uiobject>
+    	
+    	<uiobject name="totalError_1" type="text"><locator><![CDATA[945]]></locator></uiobject>
+    	<uiobject name="totalWarning_1" type="text"><locator><![CDATA[362]]></locator></uiobject>
+    	<uiobject name="totalEvent_1" type="text"><locator><![CDATA[1643]]></locator></uiobject>
+    	<uiobject name="applicationCrash_1" type="text"><locator><![CDATA[Application Crashes : 18]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_1" type="text"><locator><![CDATA[Application Log Events: 1000]]></locator></uiobject>
+    	
+    	<uiobject name="totalError_2" type="text"><locator><![CDATA[1774]]></locator></uiobject>
+    	<uiobject name="totalWarning_2" type="text"><locator><![CDATA[641]]></locator></uiobject>
+    	<uiobject name="totalEvent_2" type="text"><locator><![CDATA[1643]]></locator></uiobject>
+    	<uiobject name="applicationCrash_2" type="text"><locator><![CDATA[Application Crashes : 36]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_2" type="text"><locator><![CDATA[Application Log Events: 1000]]></locator></uiobject>
+    	
+    	<uiobject name="totalError_3" type="text"><locator><![CDATA[3994]]></locator></uiobject>
+    	<uiobject name="totalWarning_3" type="text"><locator><![CDATA[1424]]></locator></uiobject>
+    	<uiobject name="totalEvent_3" type="text"><locator><![CDATA[6658]]></locator></uiobject>
+    	<uiobject name="applicationCrash_3" type="text"><locator><![CDATA[Application Crashes : 72]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_3" type="text"><locator><![CDATA[Application Log Events: 1000]]></locator></uiobject>
+    	
+    	<uiobject name="totalError_4" type="text"><locator><![CDATA[7905]]></locator></uiobject>
+    	<uiobject name="totalWarning_4" type="text"><locator><![CDATA[2856]]></locator></uiobject>
+    	<uiobject name="totalEvent_4" type="text"><locator><![CDATA[13236]]></locator></uiobject>
+    	<uiobject name="applicationCrash_4" type="text"><locator><![CDATA[Application Crashes : 139]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_4" type="text"><locator><![CDATA[Application Log Events: 1000]]></locator></uiobject>
+    	
+    	<uiobject name="totalError_5" type="text"><locator><![CDATA[56066]]></locator></uiobject>
+    	<uiobject name="totalWarning_5" type="text"><locator><![CDATA[19801]]></locator></uiobject>
+    	<uiobject name="totalEvent_5" type="text"><locator><![CDATA[92607]]></locator></uiobject>
+    	<uiobject name="applicationCrash_5" type="text"><locator><![CDATA[Application Crashes : 1004]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_5" type="text"><locator><![CDATA[Application Log Events: 1000]]></locator></uiobject>
+    	
+    </uielements>
+  </page>
+ 
+</pages> 
