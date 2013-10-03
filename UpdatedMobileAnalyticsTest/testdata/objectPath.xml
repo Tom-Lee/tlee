@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+
+  <page name="LoginPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="email_id" type="input"><locator><![CDATA[//input[@id="email"]]]></locator></uiobject>
+      <uiobject name="password_id" type="input"><locator><![CDATA[//input[@id="password"]]]></locator></uiobject>
+      <uiobject name="submit_id" type="submit"><locator><![CDATA[//button[@id="btnSubmit"]]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="LogoutPage">
+    <location><![CDATA[https://accounts.jupiter.apigee.net/accounts/dashboard]]></location>
+    <uielements>
+      <uiobject name="email_link" type="link"><locator><![CDATA[//a[@id="email_id"]]]></locator></uiobject>
+      <uiobject name="signout_link" type="link"><locator><![CDATA[link=Sign Out]]></locator></uiobject>
+    </uielements>
+  </page>
+
+  <page name="DashboradPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="mobileAnalytics_id" type="button"><locator><![CDATA[//div[@id='dashboard_container']/div[3]/div[1]/div[2]/div[1]/button]]></locator></uiobject>
+    </uielements>														
+  </page>
+  
+  <page name="ActionPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+      <uiobject name="monitor_id" type="image"><locator><![CDATA[//tbody/tr[@class=""]/td[5]/a[2]/div[@class="monitor-btn"]]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="MobileAnalyticsPage">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+    	<uiobject name="dropdown_id" type="image"><locator><![CDATA[name=j_id99:j_id100]]></locator></uiobject>
+    	<uiobject name="app_id" type="image"><locator><![CDATA[label=Acme Bank Demo App]]></locator></uiobject>
+    </uielements>
+  </page>
+  
+  <page name="MobileAnalyticsPageErrorTab">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+    	
+    	<uiobject name="totalError_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[1]]]></locator></uiobject>
+    	<uiobject name="totalWarning_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[2]]]></locator></uiobject>
+    	<uiobject name="totalEvent_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[3]]]></locator></uiobject>
+    	<uiobject name="applicationCrash_id" type="text"><locator><![CDATA[//div[@class='row-fluid']/div/section/form[1]/h2]]></locator></uiobject>
+    	<uiobject name="applicationLogEvent_id" type="text"><locator><![CDATA[//div[@class='row-fluid']/div/section/form[2]/h2]]></locator></uiobject>
+    	
+    </uielements>
+  </page>
+  
+  <page name="MobileAnalyticsNetworkPerformanceTab">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+    	
+    	<uiobject name="averageLatency_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[1]]]></locator></uiobject>
+    	<uiobject name="maxLatency_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[2]]]></locator></uiobject>
+    	<uiobject name="totalNetworkRequests_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[3]]]></locator></uiobject>
+    	<uiobject name="totalNetworkErrors_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[4]]]></locator></uiobject>
+    	<uiobject name="applicationNetworkEvents_id" type="text"><locator><![CDATA[//section[@class='maximized-chart']/form/h2]]></locator></uiobject>
+    	
+    </uielements>
+  </page>
+  
+  <page name="MobileAnalyticsAppUsageTab">
+    <location><![CDATA[http://www.apigee.com/]]></location>
+    <uielements>
+    	
+    	<uiobject name="totalSections_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[1]]]></locator></uiobject>
+    	<uiobject name="maxConcurrentSessions_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[2]]]></locator></uiobject>
+    	<uiobject name="avgSessionLength_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[3]]]></locator></uiobject>
+    	<uiobject name="totalUniqueUsers_id" type="text"><locator><![CDATA[//html/body/div/div/div/section/div[2]/table/tbody/tr/td[4]]]></locator></uiobject>
+    																	   
+    </uielements>
+  </page>
+  
+ 
+</pages> 
