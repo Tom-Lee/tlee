@@ -1,0 +1,18 @@
+
+10-03-13 10:51:52 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Start to test App Logs Analytics page
+10-03-13 10:51:53 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //input[@id="email"] is present
+10-03-13 10:51:53 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //input[@id="password"] is present
+10-03-13 10:51:53 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Enter email, tlee+4@apigee.com, and password, 123Rcheck,
+10-03-13 10:51:53 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //button[@id="btnSubmit"] is present
+10-03-13 10:51:56 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the text: Dashboard
+10-03-13 10:51:56 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Log in the account
+10-03-13 10:51:56 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the element: //div[@id='dashboard_container']/div[3]/div[1]/div[2]/div[1]/button
+10-03-13 10:51:56 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Click 'Open Analytics'
+10-03-13 10:52:08 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - App Overview is present
+10-03-13 10:52:08 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the element: //tbody/tr[@class=""]/td[5]/a[2]/div[@class="monitor-btn"]
+10-03-13 10:52:08 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Click monitoring icon of sandbox
+10-03-13 10:52:11 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the element: //div[@class='container-fluid dashboard']/div/aside/div/section/header/form/select
+10-03-13 10:52:41 ERROR [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Error cannot logout in 30 seconds, no label=Acme Bank Demo App
+10-03-13 10:52:41 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Select 'Acme Bank Demo App' app
+10-03-13 10:52:41 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the text: Error
+10-03-13 10:52:52 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Access App Logs Analysis tab

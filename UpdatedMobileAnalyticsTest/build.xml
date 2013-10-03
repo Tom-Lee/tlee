@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="WebAutomation" basedir="." default="compile">
+	
+	<!-- import properties (app settings, classpath, jar file locations) -->
+    <import file="buildproperties.xml" />
+
+	<!-- Identify tomcat verison and define task and build path -->
+	<target name="init" description="defines custom tasks">
+		<echo message="Define TestNG task..."/>
+		<taskdef resource="testngtasks" classpath="${testng.home}/testng-6.8.7.jar" />
+	</target>
+	
+	<!-- Create necessary file folders -->
+    <target name="prepare" depends="init" description="create target directories">
+    	<mkdir dir="${test.class.dir}"/>
+    	<mkdir dir="${result.dir}"/>
+    	
+    	<!--Copy log4j property file to class folder -->
+    	<copy tofile="${test.class.dir}/log4j.properties" file="${basedir}/log4j.properties" />
+    </target>
+	
+	<!--Clean generated build folder and test result folder -->
+	<target name="clean" description="clean generated folders">
+		<echo level="info">Cleaning build and test result directories</echo>
+		<delete dir="${result.dir}"/>
+		<delete dir="${build.dir}"/>
+	</target>
+
+
+	<!--  Compile Java using javac  -->
+    <target name="compile" description="compile Java files" depends="prepare">
+      <echo message="Compile..."/>
+ 	   <javac  srcdir="${src.dir}" destdir="${test.class.dir}" deprecation="true"
+	     		optimize="true" classpathref="compile.classpath" source="1.5">
+      </javac>
+    </target>
+
+	
+	 <!--Run Test Suite doLoginLogout -->
+	    <target name="doLoginLogout" description="Run Test" depends="compile">
+	         <echo message="Run test ..."/>
+	         <testng classpathref="runtest.classpath" outputDir="${result.dir}"  haltOnfailure="true" verbose="1"> 
+	                <xmlfileset dir="${testSuite.dir}" includes="test-loginLogout.xml"/>
+	         </testng>
+	    </target>
+	
+	 <!--Run Test Suite doAppMobileAnalytics -->
+		    <target name="doMobileAnalytics" description="Run Test" depends="compile">
+		         <echo message="Run test ..."/>
+		         <testng classpathref="runtest.classpath" outputDir="${result.dir}"  haltOnfailure="true" verbose="1"> 
+		                <xmlfileset dir="${testSuite.dir}" includes="test-appMobileAnalytics.xml"/>
+		         </testng>
+		    </target>
+	
+	<!--Run Multi Test Suite Together-->
+	<!--Run Test Suite doAll -->
+	<target name="doAll" description="Run Test" depends="compile">
+		     <echo message="Run test ..."/>
+		     <testng classpathref="runtest.classpath" outputDir="${result.dir}"  haltOnfailure="true" verbose="1"> 
+		            <xmlfileset dir="${testSuite.dir}" includes="test-runAll.xml"/>
+		     </testng>
+    </target>
+
+    <target name="doRerun" description="Run Failed Test(s)" depends="compile">
+       <echo message="Run test ..."/>
+       <testng classpathref="runtest.classpath" outputDir="${test.rerun.dir}"  haltOnfailure="true" verbose="1"> 
+		   <xmlfileset dir="${testSuite.dir}" includes="testng-failed.xml"/>
+    	</testng>
+    </target>
+
+	
+   <target name="runAll" description="Run Multi Test" depends="compile">
+       <echo message="Run test ..."/>
+   	   
+   	<testng classpathref="runtest.classpath" outputDir="${result.dir}" haltOnfailure="true" verbose="2"> 
+   		
+   		<xmlfileset dir="${testSuite.dir}">
+   			<include name="test-loginLogout.xml"/>
+   		</xmlfileset>
+   	</testng>
+   </target>
+	
+	<!-- ################# End build script ####################################### -->
+	
+
+</project>
