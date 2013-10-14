@@ -1,0 +1,25 @@
+
+10-14-13 15:44:35 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Start to test Android push notifications
+10-14-13 15:44:37 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - //input[@id="email"] is present
+10-14-13 15:44:37 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - //input[@id="password"] is present
+10-14-13 15:44:37 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Enter email, aliceyang1355@gmail.com, and password, Test1239,
+10-14-13 15:44:37 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - //button[@id="btnSubmit"] is present
+10-14-13 15:44:38 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the text: Dashboard
+10-14-13 15:44:38 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Log in the account
+10-14-13 15:44:38 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the element: //div[@id='dashboard_container']/div[2]/div/div[2]/div/button[@class="btn btn-xtralarge open portal"]
+10-14-13 15:45:08 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the uuid: 
+10-14-13 15:45:08 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the element: //div[@id='sidebar-menu']/ul/li[5]/a[@id="notifications-link"]
+10-14-13 15:45:18 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the text: notify
+10-14-13 15:45:18 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Go to send notifications page
+10-14-13 15:45:27 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Enter the push notification message
+10-14-13 15:45:28 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the text: Your notification has been scheduled
+10-14-13 15:45:30 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the text: Your notification has been scheduled
+10-14-13 15:45:41 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the element: //a[@id='messageHistory-sublink']/span
+10-14-13 15:46:00 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - The push notification 1 was sent out correctly from the Web
+10-14-13 15:46:09 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - The push notification 2 was sent out correctly from the Web
+10-14-13 15:46:24 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the element: //table[@id='notifications-certs-table']/tbody/tr[2]/td[1]/input[@type='checkbox']
+10-14-13 15:46:26 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Successfully deleted the notifier
+10-14-13 15:46:30 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Access the dashboard
+10-14-13 15:46:30 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - //a[@id="email_id"] is present
+10-14-13 15:46:35 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Found the text: Sign in to your Apigee account
+10-14-13 15:46:35 INFO [com.apigee.test.pushandroid.TestPushNotificationAndroid] - Log out successfully
