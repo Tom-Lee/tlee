@@ -74,7 +74,7 @@ if [[ $count1 -eq 0 && $count2 -gt 1 && $count3 -gt 0 ]]
 then 
        	echo ' 1. The Anroid push noticification test passed at the phone'  
 else
-	echo ' 1. Error: Android push noticification test failed at the phone' 
+	echo ' 1. Error: The Android push noticification test failed at the phone' 
 fi
 echo ''
 count1=`grep 'Error' $webLog | wc -l | cut -d' ' -f -8`
