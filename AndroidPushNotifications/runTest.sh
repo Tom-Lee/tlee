@@ -37,7 +37,7 @@ killProcess "java"
 restartServer
 adb logcat -c
 
-sleep 10
+sleep 6
 deviceId=`adb devices | grep -v 'List' | grep device | cut -f 1`
 if [[ -z $deviceId ]] 
 then
@@ -58,27 +58,25 @@ adb -s $deviceId -d install -r bin/MainActivityTest.apk
 sleep 5
 adb -s $deviceId shell am instrument -e class com.ganyo.pushtest.test.MainActivityTest -w com.ganyo.pushtest.test/android.test.InstrumentationTestRunner 
 sleep 65
-killProcess "java"
 adb logcat -d > $phoneLog
-killProcess "adb"
 
-count1=`grep 'automation debug' $phoneLog | grep 'Error' | wc -l`
-count2=`grep 'automation debug' $phoneLog | wc -l | cut -d' ' -f -8`
-
+count1=`echo $(grep 'automation debug' $phoneLog | grep 'Error' | wc -l| cut -d' ' -f -8)`
+count2=`echo $(grep 'automation debug' $phoneLog | wc -l |cut -d' ' -f -8)`
+count3=`echo $(grep 'automation debug' $phoneLog | grep 'Done with push notification test at mobile side' | wc -l | cut -d' ' -f -8)`
 echo ''
 echo ''
 echo '##################### Test Result Summary #####################'
 echo ''
-if [[ $count1 -eq 0 && $count2 -gt 1 ]]
+if [[ $count1 -eq 0 && $count2 -gt 10 && $count3 -eq 2 ]]
 then 
-       	echo ' 1. The Anroid push notification test passed at the phone'  
+       	echo ' 1. The Android push notification test passed at the phone'  
 else
 	echo ' 1. Error: The Android push notification test failed at the phone' 
 fi
 echo ''
-count1=`grep 'Error' $webLog | wc -l | cut -d' ' -f -8`
-count2=`wc -l $webLog | cut -d' ' -f -7`
-if [[ $count1 -eq 0 && $count2 -gt 1 ]]
+count1=`echo $(grep 'Error' $webLog | wc -l | cut -d' ' -f -8)`
+count2=`echo $(wc -l $webLog | cut -d' ' -f -7)`
+if [[ $count1 -eq 0 && $count2 -gt 24 ]]
 then 
        	echo ' 2. The Android push notification test passed at the web'  
 else
@@ -89,4 +87,7 @@ echo '###############################################################'
 echo ''
 
 cd $home
+echo "Terminate any running processes"
+killProcess "java"
+killProcess "adb"
 exit 0
