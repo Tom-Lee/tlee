@@ -70,7 +70,7 @@ echo ''
 echo ''
 echo '##################### Test Result Summary #####################'
 echo ''
-if [[ $count1 -eq 0 && $count2 -gt 1 && $count3 -gt 0 ]]
+if [[ $count1 -eq 0 && $count2 -gt 1 && $count3 -eq 0 ]]
 then 
        	echo ' 1. The Anroid push noticification test passed at the phone'  
 else
