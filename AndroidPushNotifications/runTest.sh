@@ -64,26 +64,25 @@ killProcess "adb"
 
 count1=`grep 'automation debug' $phoneLog | grep 'Error' | wc -l`
 count2=`grep 'automation debug' $phoneLog | wc -l | cut -d' ' -f -8`
-count3=`grep 'Error' $phoneLog | wc -l | cut -d' ' -f -8`
 
 echo ''
 echo ''
 echo '##################### Test Result Summary #####################'
 echo ''
-if [[ $count1 -eq 0 && $count2 -gt 1 && $count3 -eq 0 ]]
+if [[ $count1 -eq 0 && $count2 -gt 1 ]]
 then 
-       	echo ' 1. The Anroid push noticification test passed at the phone'  
+       	echo ' 1. The Anroid push notification test passed at the phone'  
 else
-	echo ' 1. Error: The Android push noticification test failed at the phone' 
+	echo ' 1. Error: The Android push notification test failed at the phone' 
 fi
 echo ''
 count1=`grep 'Error' $webLog | wc -l | cut -d' ' -f -8`
 count2=`wc -l $webLog | cut -d' ' -f -7`
 if [[ $count1 -eq 0 && $count2 -gt 1 ]]
 then 
-       	echo ' 2. The Android push noticification test passed at the web'  
+       	echo ' 2. The Android push notification test passed at the web'  
 else
-       	echo ' 2. Error: The Android push noticification test failed at the web' 
+       	echo ' 2. Error: The Android push notification test failed at the web' 
 fi
 echo ''
 echo '###############################################################'
