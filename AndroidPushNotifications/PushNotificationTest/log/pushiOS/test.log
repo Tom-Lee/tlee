@@ -1,9 +1,0 @@
-
-10-11-13 12:50:45 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Start to test iOS push notifications
-10-11-13 12:50:47 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //input[@id="email"] is present
-10-11-13 12:50:47 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //input[@id="password"] is present
-10-11-13 12:50:47 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Enter email, johnyang178@yahoo.com, and password, Test1238,
-10-11-13 12:50:47 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //button[@id="btnSubmit"] is present
-10-11-13 12:50:48 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the text: Dashboard
-10-11-13 12:50:48 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Log in the account
-10-11-13 12:50:48 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the element: //div[@id='dashboard_container']/div[2]/div/div[2]/div/button[@class="btn btn-xtralarge open portal"]
