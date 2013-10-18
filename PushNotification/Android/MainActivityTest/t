@@ -1,0 +1,11 @@
+D/ExtSolo ( 4984): Log info in LogCat, tag: "automation debug", msg: "Start push notification test at mobile side"
+I/automation debug( 4984): Start push notification test at mobile side
+D/ExtSolo ( 4984): Log info in LogCat, tag: "automation debug", msg: "Found Send button and MainActivity"
+I/automation debug( 4984): Found Send button and MainActivity
+D/ExtSolo ( 4984): Log info in LogCat, tag: "automation debug", msg: "Received 2 pushed notifications correctly: Hello world!
+I/automation debug( 4984): Received 2 pushed notifications correctly: Hello world!
+I/automation debug( 4984): Device registered as: APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw
+I/automation debug( 4984): I just sent another notification
+I/automation debug( 4984): I just sent another notification
+D/ExtSolo ( 4984): Log info in LogCat, tag: "automation debug", msg: "Done with push notification test at mobile side"
+I/automation debug( 4984): Done with push notification test at mobile side

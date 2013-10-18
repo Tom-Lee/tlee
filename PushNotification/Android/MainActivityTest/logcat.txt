@@ -1,0 +1,2141 @@
+--------- beginning of /dev/log/system
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+--------- beginning of /dev/log/main
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+E/Watchdog(  739): !@Sync 1268
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+V/AlarmManager(  739): waitForAlarm result :8
+V/AlarmManager(  739): ClockReceiver onReceive() ACTION_TIME_TICK
+D/accuweather( 1462): [Accuweather J]>>> SWW:566 [0:0] =============== BR act = androidintentactionTIME_TICK
+D/accuweather( 1462): [Accuweather J]>>> SWW:603 [0:0] renderUpdateTime : [0] = 1
+D/accuweather( 1462): [Accuweather J]>>> WR:357 [0:0] =============== updateTime = 1
+D/accuweather( 1462): [Accuweather J]>>> SM:896 [0:0] updateCurrentCityTime : [1]0/1
+D/accuweather( 1462): [Accuweather J]>>> SM:1620 [0:0] drw 1nd Tm dt = Wed, Oct 16
+D/accuweather( 1462): [Accuweather J]>>> SM:1653 [0:0] makeTimeText[1] time :Wed, Oct 16 1:19 PM, new :Wed, Oct 16 1:20 PM
+D/dalvikvm( 1462): GC_FOR_ALLOC freed 2221K, 19% free 25805K/31616K, paused 29ms, total 29ms
+D/accuweather( 1462): [Accuweather J]>>> SM:926 [0:0] updateCityAniType : mCityList.size():1 mCityIndex : 0
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/AndroidRuntime(22846): 
+D/AndroidRuntime(22846): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(22846): CheckJNI is OFF
+D/AndroidRuntime(22846): setted country_code = USA
+D/AndroidRuntime(22846): setted countryiso_code = US
+D/AndroidRuntime(22846): setted sales_code = ATT
+D/AndroidRuntime(22846): pLocation:automatic, pLang: , pRegn: 
+D/AndroidRuntime(22846): pLocation(NoSIM):english_us, pLang: en, pRegn: US
+D/AndroidRuntime(22846): readGMSProperty: start
+D/AndroidRuntime(22846): readGMSProperty: already setted!!
+D/AndroidRuntime(22846): readGMSProperty: end
+D/AndroidRuntime(22846): addProductProperty: start
+D/dalvikvm(22846): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(22846): Added shared lib libjavacore.so 0x0
+D/dalvikvm(22846): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(22846): Added shared lib libnativehelper.so 0x0
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:1.100000 hotplug_avg_load_dw: 64
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+D/dalvikvm(22846): Note: class Landroid/app/ActivityManagerNative; has 169 unimplemented (abstract) methods
+D/AndroidRuntime(22846): Calling main entry com.android.commands.pm.Pm
+W/LicenseLogService(  739): log() is called by non admin
+D/SELinux (22860): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10034 isSystemServer: 0 seinfo: platform pkgname com.android.defcontainer
+I/LSS-II: (  739): proc in:com.google.android.partnersetup,adj=13LRU num=74,i=36
+I/HarmonyEASService(  739): Updating for all 1
+I/PackageManager(  739): Copying native libraries to /data/app-lib/vmdl-1891620900
+I/Monitor (  739): SIOP:: Current AP = 310, CP = 0
+W/LicenseLogService(  739): log() is called by non admin
+I/PackageManager(  739): Removing non-system package:com.ganyo.pushtest.test
+W/PackageManager(  739): verifying app can be installed or not
+E/installd(  220): ECS_ECS: * do_linklib  pkg [com.ganyo.pushtest.test]
+E/installd(  220): ECS_ECS: do_linklib Normal package
+E/installd(  220): ECS_ECS: Restting the data Path to -data-  ret [0]
+E/installd(  220): ECS_ECS: * do_dexopt  pkg [/data/app/com.ganyo.pushtest.test-1.apk]
+E/installd(  220): ECS_ECS: do_dexopt Normal package
+W/PackageManager(  739): SELinuxMMAC.assignSeinfoValue
+I/PackageManager(  739): Package com.ganyo.pushtest.test codePath changed from /data/app/com.ganyo.pushtest.test-2.apk to /data/app/com.ganyo.pushtest.test-1.apk; Retaining data and using new
+I/HarmonyEASService(  739): Updating for all 1
+D/dalvikvm(22874): DexOpt: load 21ms, verify+opt 88ms, 674356 bytes
+E/installd(  220): ECS_ECS: Restting the data Path to -data-  ret [0]
+W/PackageManager(  739): Code path for pkg : com.ganyo.pushtest.test changing from /data/app/com.ganyo.pushtest.test-2.apk to /data/app/com.ganyo.pushtest.test-1.apk
+W/PackageManager(  739): Resource path for pkg : com.ganyo.pushtest.test changing from /data/app/com.ganyo.pushtest.test-2.apk to /data/app/com.ganyo.pushtest.test-1.apk
+E/installd(  220): ECS_ECS: * do_move_dex  pkg [/data/app/com.ganyo.pushtest.test-1.apk]
+E/installd(  220): ECS_ECS: do_move_dex Normal package
+E/installd(  220): ECS_ECS: Restting the data Path to -data-  ret [0]
+E/MP-Decision( 1780): num online cores: 2 reqd : 3 available : 4 rq_depth:6.500000 hotplug_avg_load_dw: 83
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:98.000000
+D/ContainerEventsRelayManager( 1161): <<< Intent action is >>> : android.intent.action.PACKAGE_REMOVED
+D/ContainerEventsRelayManager( 1161): <<< Intent data is   >>> : package:com.ganyo.pushtest.test
+I/InputReader(  739): Reconfiguring input devices.  changes=0x00000010
+I/LSS-II: (  739): proc out:com.sec.esdk.elm,adj=0,i=73
+I/LSS-II: (  739): proc in:com.google.android.googlequicksearchbox,adj=13LRU num=74,i=36
+I/elm     ( 4683): MainReceiver.onReceive() : android.intent.action.PACKAGE_REMOVED
+D/elm     ( 4683): MainReceiver.listeningToPackageRemoved()
+D/elm     ( 4683): MainReceiver.listeningToPackageRemoved(). PACKAGE getAction:android.intent.action.PACKAGE_REMOVED, getData:package:com.ganyo.pushtest.test, getSchemeSpecificPart:com.ganyo.pushtest.test
+D/elm     ( 4683): MDMBridge.getInstance()
+D/elm     ( 4683): MDMBridge.getAllLicenseInfoFromSDK()
+I/elm     ( 4683): MainReceiver.onReceive() END - - - - - : android.intent.action.PACKAGE_REMOVED
+D/elm     ( 4683): ElmAgentService : onStartCommand()
+D/elm     ( 4683): ElmAgentService : onStartCommand() : intent is not null
+E/MP-Decision( 1780): num online cores: 3 reqd : 4 available : 4 rq_depth:4.100000 hotplug_avg_load_dw: 149
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:3 core_idx:3 Nw:3.500000 Tw:90 total_time_up:144.000000
+D/ContainerEventsRelayManager( 1161): <<< Intent action is >>> : android.intent.action.PACKAGE_ADDED
+D/ContainerEventsRelayManager( 1161): <<< Intent data is   >>> : package:com.ganyo.pushtest.test
+I/InputReader(  739): Reconfiguring input devices.  changes=0x00000010
+I/HarmonyEASService(  739): onReceive : android.intent.action.PACKAGE_REMOVED for 0
+D/dalvikvm( 2221): GC_CONCURRENT freed 323K, 15% free 17009K/19880K, paused 1ms+2ms, total 20ms
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/SELinux (22883): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10023 isSystemServer: 0 seinfo: samsung pkgname com.sec.android.service.cm
+D/dalvikvm( 1548): GC_CONCURRENT freed 435K, 12% free 17324K/19644K, paused 4ms+2ms, total 19ms
+I/LSS-II: (  739): proc wait in:com.sec.android.app.tmserver,adj=11LRU num=74,i=44
+I/LSS-II: (  739): proc in:com.android.chrome,adj=13LRU num=74,i=36
+D/ContainerEventsRelayManager( 1161): <<< Intent action is >>> : android.intent.action.PACKAGE_REPLACED
+D/ContainerEventsRelayManager( 1161): <<< Intent data is   >>> : package:com.ganyo.pushtest.test
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+W/InputMethodManagerService(  739): Found no subtypes in a system IME: com.sec.android.inputmethod
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/CapabilityManagerService(22883): Receiver Broadcast:android.intent.action.PACKAGE_REMOVED
+D/CapabilityManagerService(22883): The package(com.ganyo.pushtest.test) updated
+I/LSS-II: (  739): proc out:com.sec.chaton,adj=0,i=74
+I/LSS-II: (  739): proc wait in:com.sec.android.widgetapp.easyfavoritescontactswidget,adj=11LRU num=75,i=52
+D/dalvikvm( 1548): GC_CONCURRENT freed 397K, 12% free 17322K/19644K, paused 2ms+1ms, total 21ms
+D/SELinux (22897): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 1000 isSystemServer: 0 seinfo: platform pkgname com.samsung.android.app.filterinstaller
+I/LSS-II: (  739): proc wait in:com.sec.android.widgetapp.programmonitorwidget,adj=11LRU num=75,i=53
+I/LSS-II: (  739): proc in:com.google.android.apps.uploader,adj=13LRU num=76,i=37
+W/ContextImpl(22897): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1643 android.content.ContextWrapper.startService:457 android.content.ContextWrapper.startService:457 com.samsung.android.app.filterinstaller.PackageIntentReceiver.onReceive:41 android.app.ActivityThread.handleReceiver:2442 
+D/ECS_EnterpriseContainerService(  739): <<< Intent action is >>> : android.intent.action.PACKAGE_ADDED
+D/ECS_EnterpriseContainerService(  739): <<< Intent data is   >>> : package:com.ganyo.pushtest.test
+I/ECS_EnterpriseContainerService(  739): Inside package added listener
+D/ECS_EnterpriseContainerService(  739): <<< Intent action is >>> : android.intent.action.PACKAGE_REPLACED
+D/ECS_EnterpriseContainerService(  739): <<< Intent data is   >>> : package:com.ganyo.pushtest.test
+I/ECS_EnterpriseContainerService(  739): Inside package added listener
+I/LSS-II: (  739): proc in:com.google.android.apps.plus,adj=13LRU num=76,i=37
+D/SELinux (22910): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10060 isSystemServer: 0 seinfo: untrusted pkgname com.google.android.gms
+D/dalvikvm(  213): GC_EXPLICIT freed 42K, 8% free 16738K/18016K, paused 3ms+3ms, total 30ms
+D/dalvikvm( 1518): GC_EXPLICIT freed 179K, 8% free 16868K/18284K, paused 3ms+10ms, total 60ms
+D/dalvikvm(  213): GC_EXPLICIT freed <1K, 8% free 16738K/18016K, paused 2ms+2ms, total 24ms
+D/dalvikvm(  213): GC_EXPLICIT freed <1K, 8% free 16738K/18016K, paused 3ms+2ms, total 22ms
+D/SELinux (22923): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 1000 isSystemServer: 0 seinfo: platform pkgname com.android.keychain
+I/LSS-II: (  739): proc wait in:com.sec.android.widgetapp.dualclockdigital,adj=11LRU num=78,i=54
+D/dalvikvm(  739): GC_EXPLICIT freed 8464K, 17% free 65277K/78468K, paused 5ms+20ms, total 318ms
+D/AndroidRuntime(22846): Shutting down VM
+D/dalvikvm(22846): GC_CONCURRENT freed 93K, 14% free 628K/724K, paused 0ms+0ms, total 4ms
+I/CrashAnrDetector(  739): onPackageUpdateFinished : com.ganyo.pushtest.test
+E/MP-Decision( 1780): num online cores: 4 reqd : 2 available : 4 rq_depth:0.900000 hotplug_avg_load_dw: 49
+E/MP-Decision( 1780): DOWN cpu:3 core_idx:3 Ns:3.100000 Ts:240 total_time_down:243.000000
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:243.000000
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4180, temperature: 256, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+W/ContextImpl(22923): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1643 android.content.ContextWrapper.startService:457 android.content.ContextWrapper.startService:457 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2442 
+D/SELinux (22957): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10087 isSystemServer: 0 seinfo: release pkgname com.android.musicfx
+I/LSS-II: (  739): proc wait in:com.sec.android.SimpleWidget,adj=11LRU num=79,i=56
+D/SELinux (22970): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10099 isSystemServer: 0 seinfo: untrusted pkgname com.android.vending
+W/LicenseLogService(  739): log() is called by non admin
+W/LicenseLogService(  739): log() is called by non admin
+W/LicenseLogService(  739): log() is called by non admin
+D/Finsky  (22970): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+D/Finsky  (22970): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+W/Settings(22970): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Settings(22970): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Finsky  (22970): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+W/Finsky  (22970): [1] FinskyApp.getDfeApi: No account configured on this device.
+I/LSS-II: (  739): proc out:com.google.android.apps.plus,adj=0,i=68
+I/LSS-II: (  739): proc wait in:com.sec.android.service.cm,adj=11LRU num=80,i=59
+I/LSS-II: (  739): proc out:com.sec.android.app.samsungapps.una2,adj=0,i=79
+I/LSS-II: (  739): proc wait in:com.sec.chaton,adj=11LRU num=80,i=60
+D/SELinux (23005): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10136 isSystemServer: 0 seinfo: release pkgname com.sec.android.gallery3d
+E/MP-Decision( 1780): num online cores: 2 reqd : 4 available : 4 rq_depth:4.700000 hotplug_avg_load_dw: 108
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:96.000000
+E/MP-Decision( 1780): UP cpu:3 core_idx:3 Nw:3.500000 Tw:90 total_time_up:96.000000
+W/System.err(23005): android.content.pm.PackageManager$NameNotFoundException: com.sec.android.cloudagent
+W/System.err(23005): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:92)
+W/System.err(23005): 	at com.sec.android.gallery3d.cloud.CloudRefer.isCloudAgentExist(CloudRefer.java:83)
+W/System.err(23005): 	at com.sec.android.gallery3d.util.GalleryFeature.checkUseCloud(GalleryFeature.java:420)
+W/System.err(23005): 	at com.sec.android.gallery3d.util.GalleryFeature.init(GalleryFeature.java:204)
+W/System.err(23005): 	at com.sec.android.gallery3d.app.GalleryAppImpl.getDataManager(GalleryAppImpl.java:203)
+W/System.err(23005): 	at com.sec.android.gallery3d.provider.GalleryProvider.onCreate(GalleryProvider.java:118)
+W/System.err(23005): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1058)
+W/System.err(23005): 	at android.app.ActivityThread.installProvider(ActivityThread.java:4995)
+W/System.err(23005): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4608)
+W/System.err(23005): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4548)
+W/System.err(23005): 	at android.app.ActivityThread.access$1400(ActivityThread.java:151)
+W/System.err(23005): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1341)
+W/System.err(23005): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+W/System.err(23005): 	at android.os.Looper.loop(Looper.java:137)
+W/System.err(23005): 	at android.app.ActivityThread.main(ActivityThread.java:5293)
+W/System.err(23005): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(23005): 	at java.lang.reflect.Method.invoke(Method.java:511)
+W/System.err(23005): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1102)
+W/System.err(23005): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:869)
+W/System.err(23005): 	at dalvik.system.NativeStart.main(Native Method)
+D/dalvikvm( 1344): GC_CONCURRENT freed 260K, 11% free 17280K/19336K, paused 3ms+2ms, total 19ms
+W/System.err(23005): android.content.pm.PackageManager$NameNotFoundException: com.skp.tcloud.agent
+W/System.err(23005): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:92)
+W/System.err(23005): 	at com.sec.android.gallery3d.tCloud.TCloudRefer.isTCloudAgentExist(TCloudRefer.java:39)
+W/System.err(23005): 	at com.sec.android.gallery3d.util.GalleryFeature.checkUseTCloud(GalleryFeature.java:745)
+W/System.err(23005): 	at com.sec.android.gallery3d.util.GalleryFeature.init(GalleryFeature.java:252)
+W/System.err(23005): 	at com.sec.android.gallery3d.app.GalleryAppImpl.getDataManager(GalleryAppImpl.java:203)
+W/System.err(23005): 	at com.sec.android.gallery3d.provider.GalleryProvider.onCreate(GalleryProvider.java:118)
+W/System.err(23005): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1058)
+W/System.err(23005): 	at android.app.ActivityThread.installProvider(ActivityThread.java:4995)
+W/System.err(23005): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4608)
+W/System.err(23005): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4548)
+W/System.err(23005): 	at android.app.ActivityThread.access$1400(ActivityThread.java:151)
+W/System.err(23005): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1341)
+W/System.err(23005): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+W/System.err(23005): 	at android.os.Looper.loop(Looper.java:137)
+W/System.err(23005): 	at android.app.ActivityThread.main(ActivityThread.java:5293)
+W/System.err(23005): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(23005): 	at java.lang.reflect.Method.invoke(Method.java:511)
+W/System.err(23005): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1102)
+W/System.err(23005): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:869)
+W/System.err(23005): 	at dalvik.system.NativeStart.main(Native Method)
+D/NearbySource(23005): Nearby Source Create!
+D/NearbyContext(23005): Nearby Context Create!
+D/dalvikvm(23005): No JNI_OnLoad found in /system/lib/libXIVGallery2013.so 0x422dc7e0, skipping init
+D/ContactProvider(23005): getAllContactInfoList Start
+I/LSS-II: (  739): proc wait in:com.android.keychain,adj=11LRU num=81,i=60
+D/ContactProvider(23005): getAllContactInfoList End
+I/syncContacts(23005): thread: 2202, sync time = 42
+I/LSS-II: (  739): proc cancel wait in:com.sec.android.SimpleWidget,adj=0LRU num=81,i=79
+I/LSS-II: (  739): proc wait in:com.android.musicfx,adj=11LRU num=81,i=60
+D/SELinux (23029): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10155 isSystemServer: 0 seinfo: default pkgname com.nuance.swype.input
+I/LSS-II: (  739): proc wait in:com.google.android.gms,adj=11LRU num=81,i=61
+E/MP-Decision( 1780): num online cores: 4 reqd : 3 available : 4 rq_depth:1.300000 hotplug_avg_load_dw: 119
+E/MP-Decision( 1780): DOWN cpu:3 core_idx:3 Ns:3.100000 Ts:240 total_time_down:288.000000
+E/MP-Decision( 1780): num online cores: 3 reqd : 1 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 15
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:238.000000
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:140.000000
+I/LSS-II: (  739): proc out:com.google.android.googlequicksearchbox,adj=0,i=70
+I/LSS-II: (  739): proc wait in:com.android.vending,adj=11LRU num=82,i=61
+I/SA      ( 4895): [SUR] onReceive log=[SA = 1.4.0235 V = 17 HWD = 1920X1080 3.0 dpi = 480  SIZE = 2 LOCALE = en_US CSC = ATT MCC = 0 MNC 0 T = user DEVICE = jflteatt P = jflteuc I = JDQ39 M = SAMSUNG-SGH-I337 OKLEFT false DIS JDQ39.I337UCUAMDL  ]
+I/SA      ( 4895): [SUR] onReceive Intent=[ action_PACKAGE_REPLACED package ]
+I/LSS-II: (  739): proc out:com.osp.app.signin,adj=0,i=81
+I/LSS-II: (  739): proc wait in:com.google.android.apps.plus,adj=11LRU num=82,i=61
+I/HomeSyncInstallReceiver( 1548): Package Added : Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.ganyo.pushtest.test flg=0x8000010 cmp=com.android.nfc/.HomeSyncInstallReceiver (has extras) }
+I/HomeSyncInstallReceiver( 1548): Package Added : com.ganyo.pushtest.test
+I/LSS-II: (  739): proc wait in:com.sec.android.app.samsungapps.una2,adj=11LRU num=82,i=60
+D/SELinux (23047): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10008 isSystemServer: 0 seinfo: release pkgname com.sec.android.app.FileShareServer
+I/LSS-II: (  739): proc wait in:com.sec.android.gallery3d,adj=11LRU num=82,i=59
+D/[FileShare][Server](23047): ServerBroadcastReceiver : onReceive: android.intent.action.PACKAGE_ADDED // package:com.ganyo.pushtest.test
+D/CapabilityManagerService(22883): Receiver Broadcast:android.intent.action.PACKAGE_ADDED
+I/LSS-II: (  739): proc cancel wait in:com.sec.android.service.cm,adj=0LRU num=83,i=81
+I/LSS-II: (  739): proc cancel wait in:com.sec.chaton,adj=0LRU num=83,i=82
+I/LSS-II: (  739): proc wait in:com.sec.android.SimpleWidget,adj=11LRU num=83,i=60
+I/LSS-II: (  739): proc wait in:com.nuance.swype.input,adj=11LRU num=83,i=60
+W/ContextImpl(22897): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1643 android.content.ContextWrapper.startService:457 android.content.ContextWrapper.startService:457 com.samsung.android.app.filterinstaller.PackageIntentReceiver.onReceive:41 android.app.ActivityThread.handleReceiver:2442 
+D/dalvikvm(22897): No JNI_OnLoad found in /system/lib/libfilter-jni.so 0x422e0890, skipping init
+I/LSS-II: (  739): proc out:com.google.android.partnersetup,adj=0,i=82
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:3.700000 hotplug_avg_load_dw: 65
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:147.000000
+I/LSS-II: (  739): proc wait in:com.google.android.googlequicksearchbox,adj=11LRU num=83,i=58
+I/LSS-II: (  739): proc cancel wait in:com.android.musicfx,adj=0LRU num=83,i=81
+I/LSS-II: (  739): proc wait in:com.osp.app.signin,adj=11LRU num=83,i=61
+I/LSS-II: (  739): proc cancel wait in:com.android.vending,adj=0LRU num=83,i=71
+E/MP-Decision( 1780): num online cores: 2 reqd : 3 available : 4 rq_depth:4.300000 hotplug_avg_load_dw: 90
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:98.000000
+W/LicenseLogService(  739): log() is called by non admin
+W/LicenseLogService(  739): log() is called by non admin
+V/AlarmManager(  739): waitForAlarm result :1
+V/AlarmManager(  739): trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+I/LSS-II: (  739): proc cancel wait in:com.google.android.apps.plus,adj=0LRU num=83,i=71
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/dalvikvm( 4321): GC_CONCURRENT freed 1351K, 17% free 20859K/24860K, paused 6ms+5ms, total 109ms
+D/dalvikvm( 4321): WAIT_FOR_CONCURRENT_GC blocked 89ms
+W/ContextImpl(22897): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 android.content.ContextWrapper.sendBroadcast:345 com.samsung.android.app.filterinstaller.FilterPackageService$ServiceHandler.handleMessage:95 android.os.Handler.dispatchMessage:99 android.os.Looper.loop:137 
+I/LSS-II: (  739): proc wait in:com.sec.android.app.FileShareServer,adj=11LRU num=83,i=61
+E/MP-Decision( 1780): num online cores: 3 reqd : 2 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 59
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:245.000000
+I/LSS-II: (  739): proc cancel wait in:com.sec.android.gallery3d,adj=0LRU num=83,i=82
+I/LSS-II: (  739): proc cancel wait in:com.nuance.swype.input,adj=0LRU num=83,i=79
+I/LSS-II: (  739): proc wait in:com.sec.android.service.cm,adj=11LRU num=83,i=59
+I/LSS-II: (  739): proc cancel wait in:com.google.android.googlequicksearchbox,adj=0LRU num=83,i=71
+I/LSS-II: (  739): proc wait in:com.sec.chaton,adj=11LRU num=83,i=60
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/SELinux (23074): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10118 isSystemServer: 0 seinfo: samsung pkgname com.sec.android.app.samsungapps
+I/LSS-II: (  739): proc wait in:com.google.android.partnersetup,adj=11LRU num=83,i=62
+I/dalvikvm(23074): Turning on JNI app bug workarounds for target SDK version 7...
+D/SELinux (23088): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 1000 isSystemServer: 0 seinfo: platform pkgname com.sec.knox.containeragent
+I/[SAUI]  (23074): _id = 0
+I/[SAUI]  (23074): SamsungAppsMode = 
+I/[SAUI]  (23074): LatestMCC = 
+I/[SAUI]  (23074): AndromedaMCC = 
+I/[SAUI]  (23074): CountryURL = http://us-odc.samsungapps.com/ods.as
+I/[SAUI]  (23074): DisclaimerSkip = 
+I/[SAUI]  (23074): DisclaimerVersion = 
+I/[SAUI]  (23074): TwoGLimitSize = 20
+I/[SAUI]  (23074): TwofiveGLimitSize = 20
+I/[SAUI]  (23074): ThreeGLimitSize = 20
+I/[SAUI]  (23074): FourGLimitSize = 0
+I/[SAUI]  (23074): WifiLimitSize = 0
+I/[SAUI]  (23074): FakeCSCCheck = 
+I/[SAUI]  (23074): userID = 
+I/[SAUI]  (23074): skipSignIn = 
+I/[SAUI]  (23074): NotiPopup = 
+I/[SAUI]  (23074): emailID = tomslee86@gmail.com
+I/[SAUI]  (23074): reserved = 
+I/[SAUI]  (23074): Encryption = 1
+I/[SAUI]  (23074): CHubUrl = 
+I/[SAUI]  (23074): CIsStaging = 
+I/[SAUI]  (23074): CStagingImgHostUrl = 
+I/[SAUI]  (23074): CStagingAppHostUrl = 
+I/[SAUI]  (23074): CStagingDataHostUrl = 
+I/[SAUI]  (23074): CImgFolder = 
+I/[SAUI]  (23074): CAppFolder = 
+I/[SAUI]  (23074): CDataFolder = 
+I/[SAUI]  (23074): CTempFolder = 
+I/[SAUI]  (23074): CFakeImei = 
+I/[SAUI]  (23074): CFakeMcc = 
+I/[SAUI]  (23074): CFakeMnc = 
+I/[SAUI]  (23074): CFakeModel = 
+I/[SAUI]  (23074): CFakeCsc = 
+I/[SAUI]  (23074): CFakeOdcVer = 
+I/[SAUI]  (23074): CFakeOpenApiVer = 
+I/[SAUI]  (23074): CFakeHeaderHost = 
+I/[SAUI]  (23074): CLastCountryFreeStore = 1
+I/[SAUI]  (23074): CHeaderInfinityVersion = 
+I/[SAUI]  (23074): CLastBannerProductId = 
+I/[SAUI]  (23074): CLastBannerImgUrl = 
+I/[SAUI]  (23074): CLastBannerType = 
+I/[SAUI]  (23074): CLastMcc = 310
+I/[SAUI]  (23074): CLastMnc = 00
+I/[SAUI]  (23074): CLastCsc = ATT
+I/[SAUI]  (23074): CDisclaimerVer = 
+I/[SAUI]  (23074): CAutoLogin = 
+I/[SAUI]  (23074): CUncMode = 
+I/[SAUI]  (23074): CProxyAddress = 
+I/[SAUI]  (23074): CCacheSize = 
+I/[SAUI]  (23074): CFreeDataUrl = 
+I/[SAUI]  (23074): CUncDataUrl = 
+I/[SAUI]  (23074): CDebugMode = 
+I/[SAUI]  (23074): CCurrencyUnitPrecedes = 1
+I/[SAUI]  (23074): CLastCountryCode = USA
+I/[SAUI]  (23074): CCurrencyUnitHasPenny = 1
+I/[SAUI]  (23074): CLicenseUrl = 
+I/[SAUI]  (23074): CPlatformKey = 
+I/[SAUI]  (23074): CTransferConfig = 
+I/[SAUI]  (23074): CFreeTabPrecedes = 1
+I/[SAUI]  (23074): CSnsCapaMask = 7
+I/[SAUI]  (23074): CCurrencyUnitDivision = 0
+I/[SAUI]  (23074): CSamsungNotiShow = 
+I/[SAUI]  (23074): CPsmsTestMode = 
+I/[SAUI]  (23074): CNotificationPopupShowSet = 
+I/[SAUI]  (23074): CConfigId = 
+I/[SAUI]  (23074): PhoneNumber = 
+I/[SAUI]  (23074): NetworkOperator = 
+I/[SAUI]  (23074): Birthday = 
+I/[SAUI]  (23074): Info = 
+I/[SAUI]  (23074): push_service_onoff = Y
+I/[SAUI]  (23074): SecureTime = 
+I/[SAUI]  (23074): push_service_reg_id = 0001237bd1ea6d0f1d809d2e046f168430a57242de8d80ec714b24b27c4701534492f1d0249274545d958c2069b085d72604
+I/[SAUI]  (23074): una_setting = 
+I/[SAUI]  (23074): FlexibleTabShow = 0
+I/[SAUI]  (23074): FlexibleTabName = 
+I/[SAUI]  (23074): ProtocolCachingTime = 
+I/[SAUI]  (23074): IranShetabCardUrl = 
+I/[SAUI]  (23074): PushNotiRegistrationSuccess = Y
+I/[SAUI]  (23074): CLastModel = 
+I/[SAUI]  (23074): ServerLoadLevel = 
+I/[SAUI]  (23074): Option_12 = 
+I/[SAUI]  (23074): Option_13 = 
+I/[SAUI]  (23074): Option_14 = 
+I/[SAUI]  (23074): Option_15 = 
+I/[SAUI]  (23074): Option_16 = 
+I/[SAUI]  (23074): Option_17 = 
+I/[SAUI]  (23074): Option_18 = 
+I/[SAUI]  (23074): Option_19 = 
+I/[SAUI]  (23074): Option_20 = 
+I/[SAUI]  (23074): Option_21 = 
+I/[SAUI]  (23074): Option_22 = 
+I/[SAUI]  (23074): Option_23 = 
+I/[SAUI]  (23074): Option_24 = 
+I/[SAUI]  (23074): Option_25 = 
+I/[SAUI]  (23074): Option_26 = 
+I/[SAUI]  (23074): Option_27 = 
+I/[SAUI]  (23074): Option_28 = 
+I/[SAUI]  (23074): Option_29 = 
+I/[SAUI]  (23074): Option_30 = 
+I/[SAUI]  (23074): Option_31 = 
+I/[SAUI]  (23074): Option_32 = 
+D/ContainerAgent(23088): ContainerApplication: onCreate() try to bind service
+I/ContainerAgent(23088): ContainerManagerService: ContainerManagerService onCreate()
+I/ContainerAgent(23088): ContainerManagerService: ContainerManagerService onBind()
+I/ContainerManager(23074): onServiceConnected() name=ComponentInfo{com.sec.knox.containeragent/com.sec.knox.containeragent.service.containermanager.ContainerManagerService}, conn=com.sec.knox.containeragent.a@42316958
+I/LSS-II: (  739): proc cancel wait in:com.osp.app.signin,adj=0LRU num=85,i=84
+I/LSS-II: (  739): proc wait in:com.sec.knox.containeragent,adj=9LRU num=85,i=81
+I/LSS-II: (  739): proc wait in:com.android.musicfx,adj=11LRU num=85,i=63
+I/SA      ( 4895): [SUR] onReceive log=[SA = 1.4.0235 V = 17 HWD = 1920X1080 3.0 dpi = 480  SIZE = 2 LOCALE = en_US CSC = ATT MCC = 0 MNC 0 T = user DEVICE = jflteatt P = jflteuc I = JDQ39 M = SAMSUNG-SGH-I337 OKLEFT false DIS JDQ39.I337UCUAMDL  ]
+I/SA      ( 4895): [SUR] onReceive Intent=[ android.intent.action.PACKAGE_ADDED package ]
+I/LSS-II: (  739): proc wait in:com.google.android.apps.plus,adj=11LRU num=85,i=63
+I/LSS-II: (  739): proc cancel wait in:com.sec.chaton,adj=0LRU num=85,i=84
+I/LSS-II: (  739): proc wait in:com.nuance.swype.input,adj=11LRU num=85,i=64
+I/LSS-II: (  739): proc wait in:com.sec.android.gallery3d,adj=11LRU num=85,i=65
+W/ContextImpl(22897): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1643 android.content.ContextWrapper.startService:457 android.content.ContextWrapper.startService:457 com.samsung.android.app.filterinstaller.PackageIntentReceiver.onReceive:41 android.app.ActivityThread.handleReceiver:2442 
+I/LSS-II: (  739): proc out:com.google.android.apps.maps:FriendService,adj=0,i=72
+W/LicenseLogService(  739): log() is called by non admin
+I/LSS-II: (  739): proc wait in:com.google.android.googlequicksearchbox,adj=11LRU num=85,i=64
+I/LSS-II: (  739): proc cancel wait in:com.android.musicfx,adj=0LRU num=85,i=83
+W/LicenseLogService(  739): log() is called by non admin
+W/LicenseLogService(  739): log() is called by non admin
+I/LSS-II: (  739): proc cancel wait in:com.sec.android.app.samsungapps.una2,adj=0LRU num=85,i=84
+I/LSS-II: (  739): proc wait in:com.sec.android.app.samsungapps,adj=11LRU num=85,i=63
+I/LSS-II: (  739): proc wait in:com.osp.app.signin,adj=11LRU num=85,i=63
+I/LSS-II: (  739): proc cancel wait in:com.google.android.googlequicksearchbox,adj=0LRU num=85,i=73
+I/LSS-II: (  739): proc cancel wait in:com.sec.knox.containeragent,adj=1LRU num=85,i=84
+I/LSS-II: (  739): proc cancel wait in:com.osp.app.signin,adj=0LRU num=85,i=84
+I/LSS-II: (  739): proc wait in:com.sec.knox.containeragent,adj=9LRU num=85,i=83
+I/LSS-II: (  739): proc wait in:com.sec.chaton,adj=11LRU num=85,i=63
+I/LSS-II: (  739): proc wait in:com.google.android.apps.maps:FriendService,adj=11LRU num=85,i=62
+I/SA      ( 4895): [SUR] onReceive log=[SA = 1.4.0235 V = 17 HWD = 1920X1080 3.0 dpi = 480  SIZE = 2 LOCALE = en_US CSC = ATT MCC = 0 MNC 0 T = user DEVICE = jflteatt P = jflteuc I = JDQ39 M = SAMSUNG-SGH-I337 OKLEFT false DIS JDQ39.I337UCUAMDL  ]
+I/SA      ( 4895): [SUR] onReceive Intent=[ action_PACKAGE_REPLACED package ]
+I/LSS-II: (  739): proc out:com.google.android.apps.maps:LocationFriendService,adj=0,i=73
+I/LSS-II: (  739): proc wait in:com.android.musicfx,adj=11LRU num=85,i=65
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.500000 hotplug_avg_load_dw: 26
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:194.000000
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/AndroidRuntime(23112): 
+D/AndroidRuntime(23112): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(23112): CheckJNI is OFF
+D/AndroidRuntime(23112): setted country_code = USA
+D/AndroidRuntime(23112): setted countryiso_code = US
+D/AndroidRuntime(23112): setted sales_code = ATT
+D/AndroidRuntime(23112): pLocation:automatic, pLang: , pRegn: 
+D/AndroidRuntime(23112): pLocation(NoSIM):english_us, pLang: en, pRegn: US
+D/AndroidRuntime(23112): readGMSProperty: start
+D/AndroidRuntime(23112): readGMSProperty: already setted!!
+D/AndroidRuntime(23112): readGMSProperty: end
+D/AndroidRuntime(23112): addProductProperty: start
+D/dalvikvm(23112): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(23112): Added shared lib libjavacore.so 0x0
+D/dalvikvm(23112): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(23112): Added shared lib libnativehelper.so 0x0
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:1.300000 hotplug_avg_load_dw: 65
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+D/dalvikvm(23112): Note: class Landroid/app/ActivityManagerNative; has 169 unimplemented (abstract) methods
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/AndroidRuntime(23112): Calling main entry com.android.commands.am.Am
+D/SELinux (23128): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10190 isSystemServer: 0 seinfo: default pkgname com.ganyo.pushtest
+D/dalvikvm(23128): Late-enabling CheckJNI
+W/dalvikvm(23128): method Landroid/test/InstrumentationTestRunner$StringResultPrinter;.print incorrectly overrides package-private method with same name in Ljunit/textui/ResultPrinter;
+I/TestRunner(23128): started: testPushNotification(com.ganyo.pushtest.test.MainActivityTest)
+I/CustomFrequencyManager(  739): newFrequencyRequest  - mFrequency = 1350000, mTimeoutMs = -1, mPkgName = ACTIVITY_RESUME_BOOSTER@5
+I/CustomFrequencyManager(  739): Boost Request from package = ACTIVITY_RESUME_BOOSTER@5 frequency : 1350000type = 6
+I/CustomFrequencyManager(  739): !! pkgName = ACTIVITY_RESUME_BOOSTER@5
+I/CustomFrequencyManager(  739): Request from package name pkgName = ACTIVITY_RESUME_BOOSTER@5
+I/CustomFrequencyManager(  739): mContext is Not Null  mContext.pkgName = android
+I/CustomFrequencyManager(  739): 2 Old token will be reused!
+I/CustomFrequencyManager(  739): CPUDVFSControlRequest : doFrequencyRequest::  = 1350000 Timeout : -1
+I/power   (  739): *** acquire_dvfs_lock : lockType : 1  freq : 1350000 
+D/Launcher( 1208): onPause, Launcher: 1111016112
+D/Launcher.HomeView( 1208): onPause
+D/Launcher.Workspace( 1208): exitWidgetResizeMode State: NORMAL, newDragStarted: false
+D/CustomFrequencyManagerService(  739): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1350000  uid : 1000  pid : 739  pkgName : ACTIVITY_RESUME_BOOSTER@5
+W/ActivityManager(  739): mDVFSHelper.acquire()
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1337 com.android.server.am.ActivityStack.startActivityUncheckedLocked:4460 com.android.server.am.ActivityStack.startActivityLocked:3944 com.android.server.am.ActivityStack.startActivityMayWait:4624 com.android.server.am.ActivityManagerService.startActivityAsUser:2985 
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1337 com.android.server.am.ActivityStack.startPausingLocked:1315 com.android.server.am.ActivityStack.resumeTopActivityLocked:2383 com.android.server.am.ActivityStack.resumeTopActivityLocked:2169 com.android.server.am.ActivityStack.resumeTopActivityLocked:2155 
+V/SmartFaceService - 3rd party pause(  739): onReceive [android.intent.action.ACTIVITY_STATE/com.ganyo.pushtest/create]
+V/SmartFaceService - 3rd party pause(  739): onReceive [android.intent.action.ACTIVITY_STATE/com.sec.android.app.launcher/pause]
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/TaskCloserActivity(22524): TaskCloserActivity onReceive() - com.sec.android.intent.action.HOME_PAUSE
+D/ActivityManager(  739): Trying to launch com.ganyo.pushtest/.MainActivity
+V/WindowManager(  739): rotationForOrientationLw(orient=-1, last=0); user=0  sensorRotation=-1 isCoverOpen=true mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false
+V/WindowManager(  739): Application requested orientation -1, got rotation 0 which has compatible metrics
+D/WindowManager(  739): computeScreenConfigurationLocked() set config.orientation=1 dw=1080 dh=1920 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5124 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5093 com.android.server.am.ActivityStack.realStartActivityLocked:902 
+D/PowerManagerService(  739): setKeyboardVisibility: false
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14854 com.android.server.am.ActivityManagerService.updateOomAdjLocked:15145 com.android.server.am.ActivityManagerService.updateOomAdjLocked:15337 com.android.server.am.ActivityManagerService.updateLruProcessLocked:2213 
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14860 com.android.server.am.ActivityManagerService.updateOomAdjLocked:15145 com.android.server.am.ActivityManagerService.updateOomAdjLocked:15337 com.android.server.am.ActivityManagerService.updateLruProcessLocked:2213 
+E/MoreInfoHPW_ViewGroup(  739): Parent view is not a TextView
+D/SurfaceWidgetClient( 1462): [123490] SurfaceWidgetClient onTrimMemory level: 20
+D/SurfaceWidgetClient( 1475): [123490] SurfaceWidgetClient onTrimMemory level: 20
+D/dalvikvm(  739): JIT code cache reset in 1 ms (1048512 bytes 27/0)
+D/dalvikvm(  739): GC_FOR_ALLOC freed 1891K, 17% free 65460K/78468K, paused 118ms, total 118ms
+I/dalvikvm-heap(  739): Grow heap (frag case) to 67.384MB for 2359312-byte allocation
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/dalvikvm(  739): GC_FOR_ALLOC freed 67K, 17% free 67697K/80776K, paused 113ms, total 113ms
+I/SurfaceFlinger(  212): id=443(91) createSurf 0x4073e274 (1x1),1 flag=404, qushtest
+I/LSS-II: (  739): proc wait in:com.sec.android.app.samsungapps.una2,adj=11LRU num=86,i=65
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+D/Launcher( 1208): onTrimMemory. Level: 20
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47658000 size:8355840 fd:87
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404ae000 size:4096 fd:91
+E/MP-Decision( 1780): num online cores: 2 reqd : 4 available : 4 rq_depth:4.300000 hotplug_avg_load_dw: 108
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:98.000000
+E/MP-Decision( 1780): UP cpu:3 core_idx:3 Nw:3.500000 Tw:90 total_time_up:98.000000
+E/MoreInfoHPW_ViewGroup(23128): Parent view is not a TextView
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:29
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:64
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:46
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:32
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/dalvikvm(23128): GC_FOR_ALLOC freed 163K, 8% free 17241K/18640K, paused 23ms, total 24ms
+I/dalvikvm-heap(23128): Grow heap (frag case) to 20.290MB for 2359312-byte allocation
+D/dalvikvm(23128): GC_FOR_ALLOC freed <1K, 7% free 19544K/20948K, paused 17ms, total 17ms
+D/dalvikvm(23128): GC_CONCURRENT freed 2K, 7% free 19541K/20948K, paused 3ms+2ms, total 17ms
+V/GCMRegistrar(23128): Is registered on server: false
+I/com.ganyo.pushtest(23128): registering device: APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw
+D/APIGEE_CLIENT(23128): dataClient created
+D/APIGEE_CLIENT(23128): monitoring not enabled
+I/SurfaceFlinger(  212): id=444(1) createSurf 0x423e599c (1x1),1 flag=404, NainActivit
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/STATUSBAR-StatusBarManagerService(  739): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+D/libEGL  (23128): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  (23128): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  (23128): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/Adreno200-EGL(23128): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM build:  (CL3544079)
+I/Adreno200-EGL(23128): Build Date: 03/28/13 Thu
+I/Adreno200-EGL(23128): Local Branch: adreno_20130328
+I/Adreno200-EGL(23128): Remote Branch: 
+I/Adreno200-EGL(23128): Local Patches: 
+I/Adreno200-EGL(23128): Reconstruct Branch: 
+D/OpenGLRenderer(23128): Enabling debug mode 0
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.InputMethodManagerService$5.run:2252 java.lang.Thread.run:856 <bottom of call stack> <bottom of call stack> 
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47e50000 size:8355840 fd:32
+E/MP-Decision( 1780): num online cores: 4 reqd : 3 available : 4 rq_depth:1.100000 hotplug_avg_load_dw: 119
+E/MP-Decision( 1780): DOWN cpu:3 core_idx:3 Ns:3.100000 Ts:240 total_time_down:245.000000
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404b0000 size:4096 fd:59
+D/Launcher( 1208): onStop, Launcher: 1111016112
+D/Launcher.HomeView( 1208): onStop
+D/SurfaceWidgetClient$ISurfaceWidgetStub( 1462): [123490] Surface widget pause on instance = 1
+D/SurfaceWidgetClient$ISurfaceWidgetStub( 1462): [123490] Surface widget visibility changed visibility = false on instance = 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:196 [0:0] [SWW] onPause : rI = 1
+D/SurfaceWidget.Renderer( 1462): [123490] SurfaceWidgetRenderer waiting: 1 (Thread[Thread-70,5,main])
+D/SurfaceWidgetClient$ISurfaceWidgetStub( 1475): [123490] Surface widget visibility changed visibility = false on instance = 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:202 [0:0] [SWW] onPause : size = 0
+D/accuweather( 1462): [Accuweather J]>>> SWW:577 [0:0]  unRegisterTTReceiver !! 
+D/accuweather( 1462): [Accuweather J]>>> WCD:1196 [0:0] cARH()
+D/accuweather( 1462): [Accuweather J]>>> WCD:495 [0:0]  onPause 
+D/accuweather( 1462): [Accuweather J]>>> WR:376 [0:0] onPause : 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:493 [0:0] =================== , pause :1
+E/dalvikvm(23128): Could not find class 'android.support.v4.app.FragmentActivity', referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm(23128): VFY: unable to resolve check-cast 44 (Landroid/support/v4/app/FragmentActivity;) in Lcom/jayway/android/robotium/solo/Waiter;
+D/dalvikvm(23128): VFY: replacing opcode 0x1f at 0x0009
+I/dalvikvm(23128): Could not find method android.support.v4.app.FragmentActivity.getSupportFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm(23128): VFY: unable to resolve virtual method 83: Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager ()Landroid/support/v4/app/FragmentManager;
+D/dalvikvm(23128): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(23128): Could not find method android.support.v4.app.FragmentActivity.getSupportFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm(23128): VFY: unable to resolve virtual method 83: Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager ()Landroid/support/v4/app/FragmentManager;
+D/dalvikvm(23128): VFY: replacing opcode 0x6e at 0x0019
+W/dalvikvm(23128): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+W/dalvikvm(23128): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+D/ExtSolo (23128): Current locale: en_US
+W/ActivityManager(  739): Unable to start service Intent { act=com.bitbar.testdroid.monitor.ScreenshotService } U=0: not found
+W/ActivityManager(  739): Unable to start service Intent { act=com.bitbar.testdroid.monitor.MetadataService } U=0: not found
+I/LSS-II: (  739): proc wait in:com.sec.android.widgetapp.ap.hero.accuweather,adj=9LRU num=86,i=34
+I/LSS-II: (  739): proc wait in:com.google.android.youtube,adj=10LRU num=86,i=29
+D/ExtSolo (23128): Log info in LogCat, tag: "automation debug", msg: "Start push notification test at mobile side"
+I/automation debug(23128): Start push notification test at mobile side
+D/ExtSolo (23128): Set orientation "portrait"
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+I/power   (  739): *** release_dvfs_lock : lockType : 1 
+I/SurfaceFlinger(  212): id=442 Removed Mauncher (1/7)
+I/SurfaceFlinger(  212): id=442 Removed Mauncher (-2/7)
+D/CustomFrequencyManagerService(  739): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1350000  uid : 1000  pid : 739  tag : ACTIVITY_RESUME_BOOSTER@5
+W/ActivityManager(  739): mDVFSHelper.release()
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:35
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:61
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+E/MP-Decision( 1780): num online cores: 3 reqd : 2 available : 4 rq_depth:2.000000 hotplug_avg_load_dw: 68
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:242.000000
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+I/SurfaceFlinger(  212): id=443 Removed qushtest (3/6)
+I/SurfaceFlinger(  212): id=443 Removed qushtest (-2/6)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:87
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:91
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.300000 hotplug_avg_load_dw: 23
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:275.000000
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+D/ExtSolo (23128): Sleep: 2000
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+V/WindowManager(  739): rotationForOrientationLw(orient=1, last=0); user=0  sensorRotation=-1 isCoverOpen=true mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false
+V/WindowManager(  739): Application requested orientation 1, got rotation 0 which has compatible metrics
+D/WindowManager(  739): computeScreenConfigurationLocked() set config.orientation=1 dw=1080 dh=1920 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5124 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5093 com.android.server.am.ActivityManagerService.setRequestedOrientation:3283 
+D/PowerManagerService(  739): setKeyboardVisibility: false
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:1.100000 hotplug_avg_load_dw: 55
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+I/com.ganyo.pushtest(23128): register response: {"dataClient":null,"type":"device","uuid":"40fdcc21-434b-3354-ac1a-998b9685dba0","deviceModel":"SAMSUNG-SGH-I337","devicePlatform":"android","hello.notifier.id":"APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw","modified":1381954810668,"google.notifier.id":"APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw","notify.notifier.id":"APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw","created":1381785578562,"deviceOSVersion":"4.2.2","metadata":{"path":"/devices/40fdcc21-434b-3354-ac1a-998b9685dba0","collections":{"receipts":"/devices/40fdcc21-434b-3354-ac1a-998b9685dba0/receipts","users":"/devices/40fdcc21-434b-3354-ac1a-998b9685dba0/users"}},"refreshed":1381954808845}
+I/com.ganyo.pushtest(23128): Device registered as: APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw
+D/PowerManagerService(  739): [api] acquire WakeLock flags=0x30000006 tag=WakeLock uid=10190 pid=23128
+D/dalvikvm(23128): GC_CONCURRENT freed 4184K, 22% free 20348K/25768K, paused 4ms+7ms, total 41ms
+D/dalvikvm(23128): WAIT_FOR_CONCURRENT_GC blocked 32ms
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/PowerManagerService(  739): [api] release WakeLock flags=0x30000006 tag=WakeLock uid=10190 pid=23128 (0x0)
+D/qdmemalloc(  212): ion: Mapped buffer base:0x46ac3000 size:8355840 fd:77
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40363000 size:4096 fd:81
+I/SurfaceFlinger(  212): id=445(2) createSurf 0x4073fa4c (1x1),1 flag=4, Nessage
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/qdmemalloc(  212): ion: Mapped buffer base:0x475e9000 size:4595712 fd:64
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40018000 size:4096 fd:85
+I/SurfaceFlinger(  212): id=446(3) createSurf 0x4074f224 (1x1),1 flag=4, Uoast
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/PowerManagerService(  739): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=739
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47a4b000 size:1474560 fd:74
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4006e000 size:4096 fd:89
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/qdmemalloc(  212): ion: Mapped buffer base:0x48648000 size:8355840 fd:34
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404ae000 size:4096 fd:67
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:1.200000 hotplug_avg_load_dw: 14
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:0.000000
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/wpa_supplicant( 1856): Scan requested (ret=0) - scan timeout 30 seconds
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+I/AmoledAdjustTimer(  739): prevTemp = 250, currTemp = 256, prevStep = 4, currStep = 4
+D/Monitor (  739): SIOPLevel:: Name = Level0, ArmFreq = -1(-1), ArmCoreNum = -1, ChargeCurrent = -1, LCDBrightness = -1, Flash = false, ACL = false, Temp = -1, recordingStop = false
+D/ExtSolo (23128): Wait for Button with id: com.ganyo.pushtest.R.id.sendButton
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4a0ab000 size:4595712 fd:72
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4007c000 size:4096 fd:46
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4aa42000 size:4595712 fd:73
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40068000 size:4096 fd:90
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/BatteryService(  739): update start
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4187, temperature: 256, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/LSS-II: (  739): proc in:com.android.keychain,adj=15LRU num=86,i=42
+I/LSS-II: (  739): proc in:com.sec.android.widgetapp.dualclockdigital,adj=15LRU num=86,i=39
+I/LSS-II: (  739): proc in:com.sec.android.widgetapp.easyfavoritescontactswidget,adj=15LRU num=86,i=38
+I/LSS-II: (  739): proc in:com.sec.android.app.tmserver,adj=15LRU num=86,i=30
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/SurfaceFlinger(  212): id=446 Removed Uoast (7/7)
+I/SurfaceFlinger(  212): id=446 Removed Uoast (-2/7)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:1474560 offset:0 fd:74
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:89
+D/PowerManagerService(  739): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 739)
+D/PowerManagerService(  739): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=739 (0x0)
+I/wpa_supplicant( 1856): nl80211: Received scan results (36 BSSes)
+I/wpa_supplicant( 1856): Autoscan values: base = 8 , limit = 128, interval = 128
+D/Tethering(  739): interfaceLinkStateChanged wlan0, true
+D/Tethering(  739): interfaceStatusChanged wlan0, true
+I/WifiStateMachine(  739): There are no configured NW[0] in scanResults
+I/WifiStateMachine(  739): There are no configured NW[2] in scanResults
+I/WifiStateMachine(  739): There are no configured NW[3] in scanResults
+I/LSS-II: (  739): proc in:com.google.android.gms,adj=15LRU num=86,i=42
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+V/AlarmManager(  739): waitForAlarm result :1
+I/LSS-II: (  739): proc in:com.sec.android.widgetapp.ap.hero.accuweather,adj=9LRU num=86,i=33
+I/LSS-II: (  739): proc in:com.google.android.youtube,adj=10LRU num=86,i=29
+V/AlarmManager(  739): trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+I/dalvikvm(22970): Total arena pages for JIT: 11
+I/dalvikvm(22970): Total arena pages for JIT: 12
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:1.500000 hotplug_avg_load_dw: 65
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+D/Finsky  (22970): [1] 5.onFinished: Installation state replication succeeded.
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.300000 hotplug_avg_load_dw: 22
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:194.000000
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/dalvikvm(23128): GC_CONCURRENT freed 870K, 21% free 20577K/25768K, paused 9ms+6ms, total 69ms
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4203, temperature: 256, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/Watchdog(  739): !@Sync 1269
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/ExtSolo (23128): Change activity to: MainActivity
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/ExtSolo (23128): Click on Button with text: OK
+D/BatteryService(  739): update start
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+D/lights  (  739): button : 1 +
+D/lights  (  739): button : 1 -
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+D/GestureDetector(23128): [Surface Touch Event] mSweepDown False, mLRSDCnt : -1 mTouchCnt : 2 mFalseSizeCnt:0
+I/AudioPolicyManagerBase(  218): getSituationVolume: isBTConnected:0 isHeadConnected:0
+V/AudioPolicyManagerBase(  218): getParamFromPolicy  deviceInt = 0, situationInt = 1, situationVolume = 0.800000
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 48000, format 1, channelMask 1, flags 4
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): startOutput() output 2, stream 1, session 490
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 1, count 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 2
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0002 or null device for output 2
+D/ALSADevice(  218): route: devices 0x2 in mode 0
+V/ALSADevice(  218): switchDevice: device 0x2 mode:0
+V/ALSADevice(  218): getUCMDevice for output device: devices:2 is input device:0
+V/ALSADevice(  218): getUCMDevice for input device: devices:0 is input device:1
+D/ALSADevice(  218): No valid input device: 0
+V/ALSADevice(  218): switchDevice,rxDev:Speaker, txDev:(null), curRxDev:Speaker, curTxDev:VR Main Mic
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _enadev value Speaker
+D/ALSADevice(  218): switchDevice: mCurTxUCMDevivce VR Main Mic mCurRxDevDevice Speaker inCallDevSwitch = 0
+V/ALSADevice(  218): switchDevice Done
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _verb value HiFi
+D/alsa_ucm(  218): Set mixer controls for Speaker enable 1
+D/alsa_ucm(  218): acdb_id 15 cap 1 enable 1
+D/ACDB-LOADER(  218): ACDB -> send_audio_cal, acdb_id = 15, path =  0
+D/ACDB-LOADER(  218): ACDB -> send_adm_topology
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+D/ACDB-LOADER(  218): ACDB -> send_audtable
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+D/ACDB-LOADER(  218): ACDB -> AUDIO_SET_AUDPROC_CAL
+D/ACDB-LOADER(  218): ACDB -> send_audvoltable
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_VOLTBL_STEP_COPP
+E/ACDB-LOADER(  218): Error: ACDB AudProc vol returned = -8
+D/ACDB-LOADER(  218): ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+D/ACDB-LOADER(  218): ACDB -> send_afe_cal
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+D/ACDB-LOADER(  218): ACDB -> AUDIO_SET_AFE_CAL
+D/alsa_ucm(  218): Setting mixer control: SLIM_0_RX Channels, value: Two
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP1, value: RX1
+V/AudioPolicyManagerBase(  218): releaseOutput() 2
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP2, value: RX2
+D/alsa_ucm(  218): Setting mixer control: RX6 DSM MUX, value: DSM_INV
+D/alsa_ucm(  218): Setting multi value: LINEOUT2 Volume
+D/alsa_ucm(  218): Setting multi value: LINEOUT4 Volume
+D/alsa_ucm(  218): Setting multi value: RX5 Digital Volume
+D/alsa_ucm(  218): Set mixer controls for HiFi enable 1
+D/alsa_ucm(  218): Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 1
+D/ALSADevice(  218): close: handle 0x43a8cd40 h 0x0
+D/ALSADevice(  218): open: handle 0x43a8cd40, format 0x2
+V/ALSADevice(  218): Music case
+D/ALSADevice(  218): Device value returned is hw:0,0
+V/ALSADevice(  218): flags 0, devName hw:0,0
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4595712 offset:0 fd:72
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:46
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4595712 offset:0 fd:73
+V/ALSADevice(  218): pcm_open returned fd 44
+D/ALSADevice(  218): handle->format: 0x2
+D/ALSADevice(  218): setHardwareParams: reqBuffSize 2048 channels 2 sampleRate 48000
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:90
+D/ALSADevice(  218): setHardwareParams: buffer_size 16384, period_size 2048, period_cnt 8
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4a0ab000 size:4595712 fd:42
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4001c000 size:4096 fd:46
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4595712 offset:0 fd:64
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:85
+D/ExtSolo (23128): Wait for Button with id: com.ganyo.pushtest.R.id.sendButton
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+E/ViewRootImpl(23128): sendUserActionEvent() mView == null
+W/InputMethodManagerService(  739): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@449c3e50 attribute=android.view.inputmethod.EditorInfo@449aac28, token = android.os.BinderProxy@44d99b70
+E/SpannableStringBuilder(23128): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+E/SpannableStringBuilder(23128): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+V/AudioPolicyManagerBase(  218): stopOutput() output 2, stream 1, session 490
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 1, count 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0000 force 0 delayMs 192 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0000 or null device for output 2
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:2.000000 hotplug_avg_load_dw: 47
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:145.000000
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+I/SurfaceFlinger(  212): id=445 Removed Nessage (3/6)
+I/SurfaceFlinger(  212): id=445 Removed Nessage (-2/6)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4595712 offset:0 fd:42
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:46
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 21
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:238.000000
+D/ExtSolo (23128): Log info in LogCat, tag: "automation debug", msg: "Found Send button and MainActivity"
+I/automation debug(23128): Found Send button and MainActivity
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/ALSADevice(  218): standby: handle 0x43a8cd40 h 0x0
+V/ALSADevice(  218): standby handle h 0x43b751a8
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _verb value Inactive
+D/alsa_ucm(  218): Set mixer controls for HiFi enable 0
+D/alsa_ucm(  218): Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 0
+V/ALSADevice(  218): Number of modifiers 0
+V/ALSADevice(  218): usecase_type is 0
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _disdev value VR Main Mic
+D/alsa_ucm(  218): disdev: device VR Main Mic not enabled, no need to disable
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _disdev value Speaker
+D/alsa_ucm(  218): Set mixer controls for Speaker enable 0
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP1, value: ZERO
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP2, value: ZERO
+D/alsa_ucm(  218): Setting mixer control: LINEOUT2 Volume, value: 0
+D/alsa_ucm(  218): Setting mixer control: LINEOUT4 Volume, value: 0
+D/alsa_ucm(  218): Setting mixer control: RX5 Digital Volume, value: 0
+D/dalvikvm(23128): GC_CONCURRENT freed 1221K, 21% free 20529K/25768K, paused 15ms+8ms, total 69ms
+D/lights  (  739): button : 0 +
+D/lights  (  739): button : 0 -
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+I/Monitor (  739): SIOP:: Current AP = 310, CP = 0
+D/Monitor (  739): SIOPLevel:: Name = Level0, ArmFreq = -1(-1), ArmCoreNum = -1, ChargeCurrent = -1, LCDBrightness = -1, Flash = false, ACL = false, Temp = -1, recordingStop = false
+I/AmoledAdjustTimer(  739): prevTemp = 256, currTemp = 256, prevStep = 4, currStep = 4
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4202, temperature: 257, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+E/kickstart( 1096): Total bytes received so far: 48
+E/kickstart( 1096): EVENT: RECEIVED <-- SAHARA_HELLO
+E/kickstart( 1096): EVENT: SENDING --> SAHARA_HELLO_RESPONSE
+E/kickstart( 1096): EVENT: sahara_mode                         = 2
+E/kickstart( 1096): EVENT: m_comm->sahara_hello_packet_rx.mode = 2
+E/kickstart( 1096): EVENT: helloRx.mode                        = 2
+E/kickstart( 1096): Total bytes received so far: 64
+E/kickstart( 1096): EVENT: RECEIVED <-- SAHARA_MEMORY_DEBUG
+E/kickstart( 1096): Total bytes received so far: 116
+E/kickstart( 1096): EVENT: 0x46980000, len=000C0000, "m9kefs2", ""
+E/kickstart( 1096): EVENT: STATE <-- SAHARA_WAIT_MEMORY_REGION
+E/kickstart( 1096): EVENT: Saving "/dev/block/platform/msm_sdcc.1/by-name/m9kefs2"
+E/kickstart( 1096): Total bytes received so far: 786548
+E/kickstart( 1096): EVENT: Received: 786432 bytes
+E/kickstart( 1096): EVENT: Writing to disk
+E/kickstart( 1096): EVENT: Successfully wrote to disk
+E/kickstart( 1096): Received file "m9kefs2"
+E/kickstart( 1096): Sync finish Received file "m9kefs2"
+E/kickstart( 1096): 786432 bytes transferred in 0.130s (5.78 MBps)
+E/kickstart( 1096): EVENT: num_debug_entries not >=0
+E/kickstart( 1096): Successfully downloaded files from target 
+E/kickstart( 1096): EVENT: SENDING --> SAHARA_RESET
+E/kickstart( 1096): Total bytes received so far: 786556
+E/kickstart( 1096): EVENT: RECEIVED <-- SAHARA_RESET_RESP
+E/kickstart( 1096): Sahara protocol completed
+E/kickstart( 1096): EVENT: STATE <-- SAHARA_WAIT_HELLO
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+I/Monitor (  739): SIOP:: Current AP = 310, CP = 0
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4206, temperature: 257, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+I/TemperatureHumiditySensor(  739): Accuracy has been changed to 3
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+E/Watchdog(  739): !@Sync 1270
+D/dalvikvm(23128): GC_CONCURRENT freed 1635K, 23% free 20084K/25768K, paused 17ms+2ms, total 53ms
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+V/AlarmManager(  739): waitForAlarm result :8
+V/AlarmManager(  739): ClockReceiver onReceive() ACTION_TIME_TICK
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+I/Monitor (  739): SIOP:: Current AP = 310, CP = 0
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+V/AlarmManager(  739): waitForAlarm result :8
+W/ThrottleService(  739): unable to find stats for iface rmnet0
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+V/AlarmManager(  739): waitForAlarm result :4
+V/AlarmManager(  739): trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4212, temperature: 257, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/LightsService(  739): [SvcLED] SvcLEDReceiver
+E/SensorManager(  739): thread start
+D/SensorService(  739): info.rates.add, set DEFAULT_EVENTS_PERIOD
+E/LightSensor(  739): Light old sensor_state 0, new sensor_state : 128 en : 1
+D/SensorService(  739): SensorDevice::activating sensor handle=6 ns=200000000 
+I/SensorService(  739): info.selectDelay() ns=200000000  
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/SensorService(  739): SensorDevice::setDelay, Return(true 1, false 0) =  1
+D/SensorManager(  739): registerListener :: handle = 6  name= CM3323 RGB Sensor delay= 200000  
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+D/SensorManager(  739): unregisterListener::  
+E/LightSensor(  739): Light old sensor_state 128, new sensor_state : 0 en : 0
+D/SensorService(  739): SensorDevice::activating sensor handle=6 ns=200000000 
+D/LightsService(  739): [SvcLED] onSensorChanged::light value = 635
+I/LightsService(  739): fileWriteInt : /sys/class/sec/led/led_lowpower  value : 0
+D/lights  (  739): led_pattern : 0 +
+D/lights  (  739): led_pattern : 0 -
+D/LightsService(  739): [SvcLED] setSvcLedLightLocked : mSvcLedState : 0x0  priority : 6  mSvcLedMode : 0
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/Monitor (  739): SIOP:: Current AP = 310, CP = 0
+D/SELinux (23193): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10108 isSystemServer: 0 seinfo: untrusted pkgname com.vlingo.midas
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+I/LSS-II: (  739): proc in:com.sec.android.SimpleWidget,adj=15LRU num=84,i=41
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:33.500000 hotplug_avg_load_dw: 42
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:146.000000
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+E/MP-Decision( 1780): num online cores: 2 reqd : 3 available : 4 rq_depth:11.700000 hotplug_avg_load_dw: 102
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:145.000000
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.appDiedLocked:3670 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:981 
+I/VlingoApplication(23193): VlingoApplication appVersion ='11.0.0.1.20087'
+E/MP-Decision( 1780): num online cores: 3 reqd : 2 available : 4 rq_depth:0.400000 hotplug_avg_load_dw: 52
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:243.000000
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 4
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:242.000000
+D/dalvikvm(23128): GC_CONCURRENT freed 992K, 23% free 20084K/25768K, paused 10ms+2ms, total 56ms
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+V/GCMBroadcastReceiver(23128): onReceive: com.google.android.c2dm.intent.RECEIVE
+V/GCMBroadcastReceiver(23128): GCM IntentService class: com.ganyo.pushtest.GCMIntentService
+V/GCMBaseIntentService(23128): Acquiring wakelock
+V/GCMBaseIntentService(23128): Intent service name: GCMIntentService-1045881103212-1
+I/GCMBaseIntentService(23128): Received message: I just sent another notification
+I/com.ganyo.pushtest(23128): I just sent another notification
+D/PowerManagerService(  739): [api] acquire WakeLock flags=0x30000006 tag=WakeLock uid=10190 pid=23128
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:5.100000 hotplug_avg_load_dw: 26
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:141.000000
+D/ContexualWidgetMonitor(  739): action =com.android.server.NotificationManagerService.NotificationArrived
+D/ContexualWidgetMonitor(  739): pkg =null
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1337 com.android.server.StatusBarManagerService.sendNotification:179 com.android.server.StatusBarManagerService.updateNotification:796 com.android.server.NotificationManagerService.enqueueNotificationInternal:1285 com.android.server.NotificationManagerService.enqueueNotificationWithTag:1145 
+D/STATUSBAR-StatusBarManagerService(  739): sendNotification(2) - 0
+D/STATUSBAR-NotificationService(  739): enqueN playAsync Type=5
+D/WindowOrientationListener(  739): enable register mbSContext: true
+D/SContextService(  739): .registerCallback, used =1
+D/SContextService(  739): 	.registerCallback : 3, client=android.view.WindowOrientationListener$SContextListenerImpl@42791588
+D/SContextManager(  739):   .registerListener : service=Auto Rotation
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+D/SensorManager(  739): get_motion_sensor
+D/SensorManager(  739): JNI - get_motion_sensor
+D/SensorService(  739): MotionSensor::activate (ident=0x7176aed8, enabled=1)
+D/MotionEngine(  739): [MotionEngine]->Build Binary Type(user):0
+D/MotionEngine(  739): [@@@ Motion Engine @@@] InitializeMotionManager ALLLLLLLLLLLLLLLLLLLLLLLLL
+D/SensorManager(  739): registerListener :: handle = 1601008243  name= Motion Sensor delay= 0  
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 4
+D/SensorService(  739): info.rates.add, set DEFAULT_EVENTS_PERIOD
+E/Sensors (  739): Acc old sensor_state 0, new sensor_state : 1 en : 1
+D/SensorService(  739): SensorDevice::activating sensor handle=0 ns=200000000 
+I/SensorService(  739): info.selectDelay() ns=20000000  
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+D/SensorService(  739): SensorDevice::setDelay, Return(true 1, false 0) =  1
+D/SensorService(  739): SensorService :: controlMotionSensor = 4
+D/SensorManager(  739): JNI - control_motion_sensor
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 6
+D/SensorService(  739): info.rates.add, set DEFAULT_EVENTS_PERIOD
+E/Sensors (  739): Gyro old sensor_state 1, new sensor_state : 3 en : 1
+D/SensorService(  739): SensorDevice::activating sensor handle=3 ns=200000000 
+I/SensorService(  739): info.selectDelay() ns=20000000  
+V/MediaPlayer-JNI( 1021): native_setup
+V/MediaPlayer( 1021): constructor
+D/MotionRecognitionService(  739):   .registerCallback : 1, motion_sensors=3, client= 
+D/MotionRecognitionService(  739):   .checkSettingEngineEnabled : true
+D/MotionRecognitionService(  739):   .initializeMotionEngine
+V/MotionRecognitionService(  739):   .updateOrientation : rotation = -1
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/SensorService(  739): SensorDevice::setDelay, Return(true 1, false 0) =  1
+D/SensorService(  739): SensorService :: controlMotionSensor = 6
+D/SensorManager(  739): JNI - control_motion_sensor
+V/MotionRecognitionManager(  739):   .registerListenerEvent : success. listener count = 0->1, motion_events=1,  
+V/GCMBaseIntentService(23128): Releasing wakelock
+V/MediaPlayer( 1021): setListener
+V/MediaPlayer-JNI( 1021): setAudioStreamType: 5
+V/MediaPlayer( 1021): MediaPlayer::setAudioStreamType
+I/MediaPlayer( 1021): it is a Ringtone type is : 2
+D/RingtoneManager( 1021): getActualDefaultRingtoneUri  type    :2
+D/RingtoneManager( 1021): checkDefaultRingtoneProperUri : InternalMediaAudio uriString not null    type:2
+I/STATUSBAR-NotificationService(  739): Reg. OverTurn
+D/STATUSBAR-NotificationService(  739): Noti Alert - doVibrate true convertStoV=false
+E/MP-Decision( 1780): num online cores: 2 reqd : 3 available : 4 rq_depth:4.700000 hotplug_avg_load_dw: 101
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:96.000000
+D/ProgressBar( 1021): setProgressDrawable mProgressDrawable = null, d = android.graphics.drawable.LayerDrawable@435ac7d0needUpdate = false
+D/ProgressBar( 1021): setProgressDrawable drawableHeight = 18
+D/ProgressBar( 1021): setProgress = 0
+D/ProgressBar( 1021): setProgress = 0, fromUser = false
+D/ProgressBar( 1021): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+D/PowerManagerService(  739): [api] release WakeLock flags=0x30000006 tag=WakeLock uid=10190 pid=23128 (0x0)
+I/MediaPlayer( 1021): It is a Not a DRM RingTone: return NULL
+I/MediaPlayer( 1021): path is null
+D/RingtoneManager(  739): getActualDefaultRingtoneUri  type    :2
+D/RingtoneManager(  739): checkDefaultRingtoneProperUri : InternalMediaAudio uriString not null    type:2
+V/MediaPlayer-JNI( 1021): setDataSourceFD: fd 87
+V/MediaPlayer( 1021): setDataSource(87, 0, 576460752303423487)
+V/MediaPlayerService(  218): Client(216) constructor
+V/MediaPlayerService(  218): Create new client(216) from pid 1021, uid 10156, 
+V/MediaPlayerService(  218): setDataSource fd=44, offset=0, length=576460752303423487
+V/MediaPlayerService(  218): st_dev  = 45840
+V/MediaPlayerService(  218): st_mode = 33188
+V/MediaPlayerService(  218): st_uid  = 0
+V/MediaPlayerService(  218): st_gid  = 0
+V/MediaPlayerService(  218): st_size = 35106
+V/MediaPlayerService(  218): calculated length = 35106
+V/MediaPlayerService(  218): player type = 3
+V/AwesomePlayer(  218): setDefault
+V/AwesomePlayer(  218): constructor
+V/AwesomePlayer(  218): setDefault
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/StagefrightPlayer(  218): StagefrightPlayer
+V/AwesomePlayer(  218): setListener
+V/StagefrightPlayer(  218): initCheck
+V/AwesomePlayer(  218): AwesomePlayer running on behalf of uid 10156
+V/AudioSink(  218): AudioOutput(491)
+V/AwesomePlayer(  218): setAudioSink
+V/StagefrightPlayer(  218): setDataSource(44, 0, 35106)
+V/AwesomePlayer(  218): setDataSource (51, 0, 35106)
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/MediaExtractor(  218): Autodetected media content as 'application/ogg' with confidence 0.20
+V/AwesomePlayer(  218): track of type 'audio/vorbis' does not publish bitrate
+V/AwesomePlayer(  218): mBitrate = -1 bits/sec
+W/AwesomePlayer(  218): couldn't get userdata - Weather
+W/AwesomePlayer(  218): couldn't get userdata - Authorization 
+W/AwesomePlayer(  218): couldn't get userdata - SnapShot 
+W/AwesomePlayer(  218): couldn't get userdata - SMRD
+V/AwesomePlayer(  218): current audio track index (0) is added to vector
+V/AwesomePlayer(  218): setDataSource_l: Audio(1), Video(0)
+I/AwesomePlayer(  218): AwesomePlayer::setDataSource_l():: This is not a DRM content
+V/MediaPlayerService(  218):  setDataSource
+V/MediaPlayerService(  218): [216] setParameter(1604)
+V/StagefrightPlayer(  218): setParameter(key=1604)
+V/AwesomePlayer(  218): setParameter key (1604)
+V/AwesomePlayer(  218): Current Contet PID : 1021
+V/MediaPlayerService(  218): [216] getParameter(1700)
+V/MediaPlayer-JNI( 1021): setLooping: 0
+V/MediaPlayer( 1021): MediaPlayer::setLooping
+V/MediaPlayerService(  218): [216] setLooping(0)
+V/StagefrightPlayer(  218): setLooping
+V/AwesomePlayer(  218): setLooping (0)
+I/SurfaceFlinger(  212): id=447(4) createSurf 0x4073fa4c (1x1),1 flag=4, Nessage
+V/MediaPlayer( 1021): setVideoSurfaceTexture
+V/MediaPlayerService(  218): [216] setVideoSurfaceTexture(0x0)
+V/MediaPlayer( 1021): prepare
+V/MediaPlayerService(  218): [216] setAudioStreamType(5)
+V/MediaPlayerService(  218): [216] prepareAsync
+V/AwesomePlayer(  218): prepareAsync
+V/AwesomePlayer(  218): onPrepareAsyncEvent
+I/SecMediaClock(  218): SecMediaClock constructor
+I/SecMediaClock(  218): reset
+V/AwesomePlayer(  218): initAudioDecoder
+D/AwesomePlayer(  218): Tunnel Mime Type: audio/vorbis, object alive = 0, mTunnelAliveAP = 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+I/AudioPolicyManagerBase(  218): ### curdevice : 2
+D/AwesomePlayer(  218): initAudioDecoder() curDev : 2, channelCount : 2
+D/AwesomePlayer(  218): Normal Audio Playback
+I/OMXCodec(  218): OMXCodec::Create mime (audio/vorbis), flags (0), matchComponentName ((null)), createEncoder (0)
+I/OMXCodec(  218): Attempting to allocate OMX node 'OMX.google.vorbis.decoder'
+I/OMXCodec(  218): Successfully allocated OMX node 'OMX.google.vorbis.decoder'
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] OMXCodec::start mState=1
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] allocating 4 buffers of size 8192 on input port
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] allocating 4 buffers of size 32768 on output port
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] Now Idle. Component sends idle done Event 
+V/AwesomePlayer(  218): finishAsyncPrepare_l
+V/AwesomePlayer(  218): notifyListner_l() msg (5-MEDIA_SET_VIDEO_SIZE), ext1 (0), ext2 (0)
+V/MediaPlayerService(  218): [216] notify (0x43b751a8, 5, 0, 0)
+V/AwesomePlayer(  218): notifyListner_l() msg (1-MEDIA_PREPARED), ext1 (0), ext2 (0)
+V/MediaPlayerService(  218): [216] notify (0x43b751a8, 1, 0, 0)
+V/MediaPlayer( 1021): message received msg=5, ext1=0, ext2=0
+V/MediaPlayer( 1021): New video size 0 x 0
+V/MediaPlayer( 1021): callback application
+V/MediaPlayer( 1021): back from callback
+V/MediaPlayer( 1021): message received msg=1, ext1=0, ext2=0
+V/MediaPlayer( 1021): prepared
+V/MediaPlayer( 1021): signal application thread
+V/MediaPlayer( 1021): callback application
+V/MediaPlayer( 1021): back from callback
+V/MediaPlayer( 1021): prepare complete - status=0
+I/AudioService(  739):  AudioFocus  requestAudioFocus() from 1021 focusChangeHint:3
+V/MediaPlayer-JNI( 1021): start
+V/MediaPlayer( 1021): start
+V/MediaPlayerService(  218): [216] setLooping(0)
+V/StagefrightPlayer(  218): setLooping
+V/AwesomePlayer(  218): setLooping (0)
+V/MediaPlayerService(  218): [216] setVolume(1.000000, 1.000000)
+V/AudioSink(  218): setVolume(1.000000, 1.000000)
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+V/MediaPlayerService(  218): [216] setAuxEffectSendLevel(0.000000)
+V/AudioSink(  218): setAuxEffectSendLevel(0.000000)
+V/MediaPlayerService(  218): [216] start
+V/StagefrightPlayer(  218): setLooping
+V/AwesomePlayer(  218): setLooping (0)
+V/StagefrightPlayer(  218): start
+V/AwesomePlayer(  218): play
+V/AwesomePlayer(  218): AwesomePlayer::play_l():: This is not a DRM content
+W/AwesomePlayer(  218): Trying to create tunnel player mIsTunnelAudio 0,                         LPAPlayer::objectsAlive 0,                         TunnelPlayer::mTunnelObjectsAlive = 0,                        (mAudioPlayer == NULL) 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+I/AudioPolicyManagerBase(  218): ### curdevice : 2
+D/AwesomePlayer(  218): curDev : 2 before make new LPAPlayer
+D/AwesomePlayer(  218): channelCount : 2
+V/AwesomePlayer(  218): AudioPlayer created, Non-LPA mode mime audio/vorbis duration 2033469
+V/AwesomePlayer(  218): startAudioPlayer_l, sendErrorNotification (0)
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] 0onCmdComplete  mState =  7
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] PORT_DISABLED(1)
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] allocating 4 buffers of size 32768 on output port
+I/AudioPlayer(  218):  Audioplayer kKeyAudioPCMFormat:1, 2, 0
+I/AudioPlayer(  218):  Audioplayer1 (2, 1)
+D/AudioSink(  218): bufferCount (4) is too small and increased to 12
+V/AudioSink(  218): open(44100, 2, 0x0, 1, 12, 491)
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 44100, format 1, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioSink(  218): setVolume
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioSink(  218): start
+V/AudioPolicyManagerBase(  218): startOutput() output 2, stream 5, session 491
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 5, count 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 2
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0002 or null device for output 2
+I/AudioPlayer(  218): fillBuffer() delay (10996910351) us > 100000 us, request_size (11288)
+D/ALSADevice(  218): route: devices 0x2 in mode 0
+V/ALSADevice(  218): switchDevice: device 0x2 mode:0
+V/ALSADevice(  218): getUCMDevice for output device: devices:2 is input device:0
+V/ALSADevice(  218): getUCMDevice for input device: devices:0 is input device:1
+D/ALSADevice(  218): No valid input device: 0
+V/ALSADevice(  218): switchDevice,rxDev:Speaker, txDev:(null), curRxDev:Speaker, curTxDev:VR Main Mic
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _enadev value Speaker
+D/ALSADevice(  218): switchDevice: mCurTxUCMDevivce VR Main Mic mCurRxDevDevice Speaker inCallDevSwitch = 0
+V/ALSADevice(  218): switchDevice Done
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _verb value HiFi
+D/alsa_ucm(  218): Set mixer controls for Speaker enable 1
+D/alsa_ucm(  218): acdb_id 15 cap 1 enable 1
+D/ACDB-LOADER(  218): ACDB -> send_audio_cal, acdb_id = 15, path =  0
+D/ACDB-LOADER(  218): ACDB -> send_adm_topology
+V/AwesomePlayer(  218): addBatteryData
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+D/ACDB-LOADER(  218): ACDB -> send_audtable
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+D/ACDB-LOADER(  218): ACDB -> AUDIO_SET_AUDPROC_CAL
+D/ACDB-LOADER(  218): ACDB -> send_audvoltable
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_VOLTBL_STEP_COPP
+E/ACDB-LOADER(  218): Error: ACDB AudProc vol returned = -8
+D/ACDB-LOADER(  218): ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+D/ACDB-LOADER(  218): ACDB -> send_afe_cal
+D/ACDB-LOADER(  218): ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+D/ACDB-LOADER(  218): ACDB -> AUDIO_SET_AFE_CAL
+I/MediaPlayer( 1021): Don't send intent. msg.arg1 = 0, msg.arg2 = 0
+D/alsa_ucm(  218): Setting mixer control: SLIM_0_RX Channels, value: Two
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP1, value: RX1
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+E/MP-Decision( 1780): num online cores: 3 reqd : 4 available : 4 rq_depth:4.500000 hotplug_avg_load_dw: 168
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:3 core_idx:3 Nw:3.500000 Tw:90 total_time_up:143.000000
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP2, value: RX2
+D/alsa_ucm(  218): Setting mixer control: RX6 DSM MUX, value: DSM_INV
+D/alsa_ucm(  218): Setting multi value: LINEOUT2 Volume
+D/alsa_ucm(  218): Setting multi value: LINEOUT4 Volume
+D/alsa_ucm(  218): Setting multi value: RX5 Digital Volume
+D/alsa_ucm(  218): Set mixer controls for HiFi enable 1
+D/alsa_ucm(  218): Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 1
+D/ALSADevice(  218): close: handle 0x43a8cd40 h 0x0
+D/ALSADevice(  218): open: handle 0x43a8cd40, format 0x2
+V/ALSADevice(  218): Music case
+D/ALSADevice(  218): Device value returned is hw:0,0
+V/ALSADevice(  218): flags 0, devName hw:0,0
+V/ALSADevice(  218): pcm_open returned fd 56
+D/ALSADevice(  218): handle->format: 0x2
+D/ALSADevice(  218): setHardwareParams: reqBuffSize 2048 channels 2 sampleRate 48000
+D/qdmemalloc(  212): ion: Mapped buffer base:0x475fc000 size:2297856 fd:86
+D/ALSADevice(  218): setHardwareParams: buffer_size 16384, period_size 2048, period_cnt 8
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40087000 size:4096 fd:89
+I/SurfaceFlinger(  212): id=448(5) createSurf 0x40044adc (1x1),1 flag=4, Uoast
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/PowerManagerService(  739): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=739
+D/MotionEngine(  739): [EXEC CAMERA] INIT.......... 
+E/AudioResampler(  218): Unsupported sample format, 1 bits, 2 channels
+I/AudioResampler(  218): new MM resampler(44100 -> 48000, 2)
+D/qdmemalloc(  212): ion: Mapped buffer base:0x42415000 size:475136 fd:73
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404b1000 size:4096 fd:92
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/ExtSolo (23128): Wait for Button with text: OK
+E/MP-Decision( 1780): num online cores: 4 reqd : 3 available : 4 rq_depth:0.400000 hotplug_avg_load_dw: 68
+E/MP-Decision( 1780): DOWN cpu:3 core_idx:3 Ns:3.100000 Ts:240 total_time_down:243.000000
+E/MP-Decision( 1780): num online cores: 3 reqd : 2 available : 4 rq_depth:1.200000 hotplug_avg_load_dw: 29
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:241.000000
+D/MotionEngine(  739): [MotionEngine] -> PR_MOVE -> Move Recognition Lv(2)
+D/MotionEngine(  739): [@@@ Motion Engine @@@] Event num	71	Occured
+I/MotionRecognitionService(  739):  send 71=FLAT ~~
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.900000 hotplug_avg_load_dw: 19
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:49.000000
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/MotionEngine(  739): [@@@ Motion Engine @@@] GetMotionScenarioId 0.128688 -0.211288 9.693524 -0.317800 -0.291200 -0.395850 51 20
+D/MotionEngine(  739): [CALIBRATION] Calibration Secess(2)[-0.0494 -0.5023 0.6300]
+D/ExtSolo (23128): Click on Button with text: OK
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4782d000 size:2297856 fd:61
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4005a000 size:4096 fd:72
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47a5e000 size:2297856 fd:74
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404cc000 size:4096 fd:85
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] End Of Stream
+V/AwesomePlayer(  218): postAudioEOS delayUs (347489)
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/MotionEngine(  739): [@@@ Motion Engine @@@] GetMotionScenarioId 0.260968 -0.205901 9.809643 -0.073150 0.204750 1.277500 51 20
+D/MotionEngine(  739): [MotionEngine] -> PR_MOVE -> Move Recognition Lv(1)
+D/MotionEngine(  739): [MotionEngine] -> Add2MotionEventQueue(LCD UP Steady(99))
+D/MotionEngine(  739): [@@@ Motion Engine @@@] Event num	99	Occured
+I/MotionRecognitionService(  739):  send 99=LCD_UP_STEADY ~~
+D/MotionEngine(  739): [CALIBRATION] Calibration Secess(3)[0.0431 -0.4494 1.4721]
+V/AwesomePlayer(  218): onCheckAudioStatus
+V/AwesomePlayer(  218): onCheckAudioStatus() set AUDIO_AT_EOS flag
+V/AwesomePlayer(  218): onStreamDone
+V/AwesomePlayer(  218): MEDIA_PLAYBACK_COMPLETE
+V/AwesomePlayer(  218): notifyListner_l() msg (2-MEDIA_PLAYBACK_COMPLETE), ext1 (0), ext2 (0)
+V/MediaPlayerService(  218): [216] notify (0x43b751a8, 2, 0, 0)
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=1)
+V/AudioSink(  218): stop
+V/MediaPlayer( 1021): message received msg=2, ext1=0, ext2=0
+V/MediaPlayer( 1021): playback complete
+V/MediaPlayer( 1021): callback application
+V/MediaPlayer( 1021): back from callback
+I/AudioService(  739):  AudioFocus  abandonAudioFocus() from 1021
+V/AudioPolicyManagerBase(  218): stopOutput() output 2, stream 5, session 491
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 5, count 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0000 force 0 delayMs 192 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0000 or null device for output 2
+V/AwesomePlayer(  218): addBatteryData
+D/MotionRecognitionManager(  739): @ member 0 =  
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 5
+E/Sensors (  739): Acc old sensor_state 3, new sensor_state : 2 en : 0
+D/SensorService(  739): SensorDevice::activating sensor handle=0 ns=20000000 
+D/SensorService(  739): SensorService :: controlMotionSensor = 5
+D/SensorManager(  739): JNI - control_motion_sensor
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 7
+E/Sensors (  739): Gyro old sensor_state 2, new sensor_state : 0 en : 0
+D/MotionRecognitionService(  739):   .unregisterCallback : 0, client= 
+D/SensorService(  739): SensorDevice::activating sensor handle=3 ns=20000000 
+D/SensorService(  739): SensorService :: controlMotionSensor = 7
+D/SensorManager(  739): JNI - control_motion_sensor
+D/SensorManager(  739): unregisterListener::  
+D/SensorService(  739): MotionSensor::activate (ident=0x7176aed8, enabled=0)
+D/SContextService(  739): .unregisterCallback, used =2
+D/SContextService(  739): 	.unregisterCallback : 2, client=android.view.WindowOrientationListener$SContextListenerImpl@42791588
+D/SContextManager(  739):   .unregisterListener : service =Auto Rotation
+I/MotionRecognitionManager(  739):   .unregisterListener : / listener count = 1->0,  
+D/MotionRecognitionService(  739):   .finalizeMotionEngine
+I/STATUSBAR-NotificationService(  739): UnReg. OverTurn
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x4
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+D/lights  (  739): button : 1 +
+D/lights  (  739): button : 1 -
+I/NotificationService(  739): cancelToast pkg=com.ganyo.pushtest callback=android.app.ITransientNotification$Stub$Proxy@44bc3270
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+D/GestureDetector(23128): [Surface Touch Event] mSweepDown False, mLRSDCnt : -1 mTouchCnt : 2 mFalseSizeCnt:0
+I/AudioPolicyManagerBase(  218): getSituationVolume: isBTConnected:0 isHeadConnected:0
+V/AudioPolicyManagerBase(  218): getParamFromPolicy  deviceInt = 0, situationInt = 1, situationVolume = 0.800000
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 48000, format 1, channelMask 1, flags 4
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): startOutput() output 2, stream 1, session 492
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 1, count 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 2
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0002 or null device for output 2
+V/AudioPolicyManagerBase(  218): releaseOutput() 2
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:86
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:89
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:74
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:85
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47457000 size:2297856 fd:42
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404cc000 size:4096 fd:74
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:61
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:72
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+E/ViewRootImpl(23128): sendUserActionEvent() mView == null
+W/InputMethodManagerService(  739): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@44bc38d0 attribute=null, token = android.os.BinderProxy@44d99b70
+V/AudioPolicyManagerBase(  218): stopOutput() output 2, stream 1, session 492
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 1, count 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0000 force 0 delayMs 192 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0000 or null device for output 2
+I/SurfaceFlinger(  212): id=447 Removed Nessage (3/7)
+I/SurfaceFlinger(  212): id=447 Removed Nessage (-2/7)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:42
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:74
+I/SurfaceFlinger(  212): id=448 Removed Uoast (6/6)
+I/SurfaceFlinger(  212): id=448 Removed Uoast (-2/6)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:475136 offset:0 fd:73
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:92
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+D/PowerManagerService(  739): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 739)
+D/PowerManagerService(  739): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=739 (0x0)
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4211, temperature: 257, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/SELinux (23249): selinux_knoxprecontexthook:  Calling  selinux_knoxprecontexthook for uid: 10180 isSystemServer: 0 seinfo: default pkgname com.att.android.digitallocker:loadingProcess
+D/dalvikvm(  213): GC_EXPLICIT freed 42K, 8% free 16738K/18016K, paused 8ms+3ms, total 57ms
+D/dalvikvm(  213): GC_EXPLICIT freed <1K, 8% free 16738K/18016K, paused 2ms+5ms, total 28ms
+I/dalvikvm(23249): Turning on JNI app bug workarounds for target SDK version 10...
+D/dalvikvm(  213): GC_EXPLICIT freed <1K, 8% free 16738K/18016K, paused 2ms+2ms, total 32ms
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:3.900000 hotplug_avg_load_dw: 33
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:194.000000
+D/DigitalLocker.UploadQueueProvider(23249): onCreate() called
+D/DigitalLocker.UserPreferenceProvider(23249): onCreate() called
+D/DigitalLocker.DiskCacheProvider(23249): onCreate() called
+D/DigitalLocker.App(23249): ****application start time 1381954876843
+D/DigitalLocker.App(23249): DigitalLocker.App.onCreate() called
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: WIFI, connected:true
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_mms, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_supl, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_dun, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_hipri, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: BLUETOOTH_TETHER, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_fota, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_ims, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: mobile_cbs, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): examining network info: WIFI_P2P, connected:false
+D/DigitalLocker.ConnectionMonitor(23249): connected over wifi
+D/Digitallocker.DownloadService(23249): Creating download service.
+D/DigitalLocker.MediaObserverService(23249): onCreate() called
+D/DigitalLocker.MediaObserverService(23249): registering observer for INTERNAL_IMAGES
+D/DigitalLocker.MediaObserverService(23249): registering observer for EXTERNAL_IMAGES
+D/DigitalLocker.MediaObserverService(23249): registering observer for INTERNAL_VIDEO
+D/DigitalLocker.MediaObserverService(23249): registering observer for EXTERNAL_VIDEO
+D/DigitalLocker.MediaObserverService(23249): onStartCommand() called: intent=null, flags=0, startId=38
+D/DigitalLocker.UploadService(23249): onCreate() called
+D/DigitalLocker.UploadService(23249): attemptUpload()
+D/DigitalLocker.App(23249): userIdHash is null in the UserPreferenceMetadata; copying from legacy android preferences: null
+D/DigitalLocker.UploadService(23249): checkUploadability().....before app.getCustomer() !=nullfalse
+D/DigitalLocker.UploadService(23249): Checking uploadability: autoUploadEnabled=false userId null, wifiOnly=false, connectionMonitor.getNetworkState()=WIFI
+D/DigitalLocker.UploadService(23249): STATUS ok
+D/DigitalLocker.UploadService(23249): Starting a new worker thread
+D/DigitalLocker.UploadService(23249): displayUploadIssueNotification(ok)
+D/DigitalLocker.App(23249): userIdHash is null in the UserPreferenceMetadata; copying from legacy android preferences: null
+D/DigitalLocker.App(23249): userIdHash is null in the UserPreferenceMetadata; copying from legacy android preferences: null
+D/DigitalLocker.UploadService(23249): The worker thread has reported that it's done
+D/DigitalLocker.MediaObserverService(23249): onStartCommand() called: intent=Intent { cmp=com.att.android.digitallocker/.upload.MediaObserverService (has extras) }, flags=0, startId=39
+D/DigitalLocker.UploadService(23249): attemptUpload()
+D/DigitalLocker.App(23249): userIdHash is null in the UserPreferenceMetadata; copying from legacy android preferences: null
+D/DigitalLocker.UploadService(23249): checkUploadability().....before app.getCustomer() !=nullfalse
+D/DigitalLocker.UploadService(23249): Checking uploadability: autoUploadEnabled=false userId null, wifiOnly=false, connectionMonitor.getNetworkState()=WIFI
+D/DigitalLocker.UploadService(23249): STATUS ok
+D/DigitalLocker.UploadService(23249): Starting a new worker thread
+D/DigitalLocker.UploadService(23249): displayUploadIssueNotification(ok)
+D/DigitalLocker.App(23249): userIdHash is null in the UserPreferenceMetadata; copying from legacy android preferences: null
+D/DigitalLocker.App(23249): userIdHash is null in the UserPreferenceMetadata; copying from legacy android preferences: null
+D/DigitalLocker.UploadService(23249): The worker thread has reported that it's done
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 14
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:196.000000
+V/GCMBroadcastReceiver(23128): onReceive: com.google.android.c2dm.intent.RECEIVE
+V/GCMBroadcastReceiver(23128): GCM IntentService class: com.ganyo.pushtest.GCMIntentService
+V/GCMBaseIntentService(23128): Acquiring wakelock
+V/GCMBaseIntentService(23128): Intent service name: GCMIntentService-1045881103212-2
+I/GCMBaseIntentService(23128): Received message: I just sent another notification
+D/PowerManagerService(  739): [api] acquire WakeLock flags=0x30000006 tag=WakeLock uid=10190 pid=23128
+I/com.ganyo.pushtest(23128): I just sent another notification
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1337 com.android.server.StatusBarManagerService.sendNotification:179 com.android.server.StatusBarManagerService.updateNotification:796 com.android.server.NotificationManagerService.enqueueNotificationInternal:1285 com.android.server.NotificationManagerService.enqueueNotificationWithTag:1145 
+D/STATUSBAR-StatusBarManagerService(  739): sendNotification(2) - 0
+D/ContexualWidgetMonitor(  739): action =com.android.server.NotificationManagerService.NotificationArrived
+D/ContexualWidgetMonitor(  739): pkg =null
+D/STATUSBAR-NotificationService(  739): enqueN playAsync Type=5
+D/ProgressBar( 1021): setProgressDrawable mProgressDrawable = null, d = android.graphics.drawable.LayerDrawable@4361be98needUpdate = false
+D/ProgressBar( 1021): setProgressDrawable drawableHeight = 18
+D/ProgressBar( 1021): setProgress = 0
+D/ProgressBar( 1021): setProgress = 0, fromUser = false
+D/ProgressBar( 1021): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+D/WindowOrientationListener(  739): enable register mbSContext: true
+D/SContextService(  739): .registerCallback, used =1
+D/SContextService(  739): 	.registerCallback : 3, client=android.view.WindowOrientationListener$SContextListenerImpl@42791588
+D/SContextManager(  739):   .registerListener : service=Auto Rotation
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, mbResultFaceDectection: false
+V/WindowOrientationListener(  739): mSContextAutoRotationListener.getProposedRotation, Rotation: -1
+D/SensorManager(  739): get_motion_sensor
+D/SensorManager(  739): JNI - get_motion_sensor
+D/MotionRecognitionService(  739):   .registerCallback : 1, motion_sensors=3, client= 
+D/MotionRecognitionService(  739):   .checkSettingEngineEnabled : true
+D/MotionRecognitionService(  739):   .initializeMotionEngine
+V/MotionRecognitionService(  739):   .updateOrientation : rotation = -1
+D/SensorService(  739): MotionSensor::activate (ident=0x7176aed8, enabled=1)
+D/MotionEngine(  739): [MotionEngine]->Build Binary Type(user):0
+D/MotionEngine(  739): [@@@ Motion Engine @@@] InitializeMotionManager ALLLLLLLLLLLLLLLLLLLLLLLLL
+D/SensorManager(  739): registerListener :: handle = 1601008243  name= Motion Sensor delay= 0  
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 4
+D/SensorService(  739): info.rates.add, set DEFAULT_EVENTS_PERIOD
+E/Sensors (  739): Acc old sensor_state 0, new sensor_state : 1 en : 1
+D/SensorService(  739): SensorDevice::activating sensor handle=0 ns=200000000 
+I/SensorService(  739): info.selectDelay() ns=20000000  
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+D/SensorService(  739): SensorDevice::setDelay, Return(true 1, false 0) =  1
+D/SensorService(  739): SensorService :: controlMotionSensor = 4
+D/SensorManager(  739): JNI - control_motion_sensor
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 6
+D/SensorService(  739): info.rates.add, set DEFAULT_EVENTS_PERIOD
+E/Sensors (  739): Gyro old sensor_state 1, new sensor_state : 3 en : 1
+D/SensorService(  739): SensorDevice::activating sensor handle=3 ns=200000000 
+I/SensorService(  739): info.selectDelay() ns=20000000  
+D/SensorService(  739): SensorDevice::setDelay, Return(true 1, false 0) =  1
+D/SensorService(  739): SensorService :: controlMotionSensor = 6
+D/SensorManager(  739): JNI - control_motion_sensor
+V/MotionRecognitionManager(  739):   .registerListenerEvent : success. listener count = 0->1, motion_events=1,  
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+I/STATUSBAR-NotificationService(  739): Reg. OverTurn
+D/STATUSBAR-NotificationService(  739): Noti Alert - doVibrate true convertStoV=false
+V/GCMBaseIntentService(23128): Releasing wakelock
+D/PowerManagerService(  739): [api] release WakeLock flags=0x30000006 tag=WakeLock uid=10190 pid=23128 (0x0)
+V/MediaPlayer-JNI( 1021): native_setup
+V/MediaPlayer( 1021): constructor
+V/MediaPlayer( 1021): setListener
+V/MediaPlayer-JNI( 1021): setAudioStreamType: 5
+V/MediaPlayer( 1021): MediaPlayer::setAudioStreamType
+I/MediaPlayer( 1021): it is a Ringtone type is : 2
+D/RingtoneManager( 1021): getActualDefaultRingtoneUri  type    :2
+D/RingtoneManager( 1021): checkDefaultRingtoneProperUri : InternalMediaAudio uriString not null    type:2
+I/MediaPlayer( 1021): It is a Not a DRM RingTone: return NULL
+I/MediaPlayer( 1021): path is null
+D/RingtoneManager(  739): getActualDefaultRingtoneUri  type    :2
+D/RingtoneManager(  739): checkDefaultRingtoneProperUri : InternalMediaAudio uriString not null    type:2
+V/MediaPlayer-JNI( 1021): setDataSourceFD: fd 90
+V/MediaPlayer( 1021): setDataSource(90, 0, 576460752303423487)
+V/MediaPlayerService(  218): Client(217) constructor
+V/MediaPlayerService(  218): Create new client(217) from pid 1021, uid 10156, 
+V/MediaPlayerService(  218): setDataSource fd=59, offset=0, length=576460752303423487
+V/MediaPlayerService(  218): st_dev  = 45840
+V/MediaPlayerService(  218): st_mode = 33188
+V/MediaPlayerService(  218): st_uid  = 0
+V/MediaPlayerService(  218): st_gid  = 0
+V/MediaPlayerService(  218): st_size = 35106
+V/MediaPlayerService(  218): calculated length = 35106
+V/MediaPlayerService(  218): player type = 3
+V/AwesomePlayer(  218): setDefault
+V/AwesomePlayer(  218): constructor
+V/AwesomePlayer(  218): setDefault
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/StagefrightPlayer(  218): StagefrightPlayer
+V/AwesomePlayer(  218): setListener
+V/StagefrightPlayer(  218): initCheck
+V/AwesomePlayer(  218): AwesomePlayer running on behalf of uid 10156
+V/AudioSink(  218): AudioOutput(493)
+V/AwesomePlayer(  218): setAudioSink
+V/StagefrightPlayer(  218): setDataSource(59, 0, 35106)
+V/AwesomePlayer(  218): setDataSource (60, 0, 35106)
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+E/MP-Decision( 1780): num online cores: 1 reqd : 3 available : 4 rq_depth:4.100000 hotplug_avg_load_dw: 49
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:146.000000
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/MediaExtractor(  218): Autodetected media content as 'application/ogg' with confidence 0.20
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:146.000000
+V/AwesomePlayer(  218): track of type 'audio/vorbis' does not publish bitrate
+V/AwesomePlayer(  218): mBitrate = -1 bits/sec
+W/AwesomePlayer(  218): couldn't get userdata - Weather
+W/AwesomePlayer(  218): couldn't get userdata - Authorization 
+W/AwesomePlayer(  218): couldn't get userdata - SnapShot 
+W/AwesomePlayer(  218): couldn't get userdata - SMRD
+V/AwesomePlayer(  218): current audio track index (0) is added to vector
+V/AwesomePlayer(  218): setDataSource_l: Audio(1), Video(0)
+I/AwesomePlayer(  218): AwesomePlayer::setDataSource_l():: This is not a DRM content
+V/MediaPlayerService(  218):  setDataSource
+V/MediaPlayerService(  218): [217] setParameter(1604)
+V/StagefrightPlayer(  218): setParameter(key=1604)
+V/AwesomePlayer(  218): setParameter key (1604)
+V/AwesomePlayer(  218): Current Contet PID : 1021
+V/MediaPlayerService(  218): [217] getParameter(1700)
+V/MediaPlayer-JNI( 1021): setLooping: 0
+V/MediaPlayer( 1021): MediaPlayer::setLooping
+V/MediaPlayerService(  218): [217] setLooping(0)
+V/StagefrightPlayer(  218): setLooping
+V/AwesomePlayer(  218): setLooping (0)
+V/MediaPlayer( 1021): setVideoSurfaceTexture
+V/MediaPlayerService(  218): [217] setVideoSurfaceTexture(0x0)
+V/MediaPlayer( 1021): prepare
+V/MediaPlayerService(  218): [217] setAudioStreamType(5)
+V/MediaPlayerService(  218): [217] prepareAsync
+V/AwesomePlayer(  218): prepareAsync
+V/AwesomePlayer(  218): onPrepareAsyncEvent
+I/SecMediaClock(  218): SecMediaClock constructor
+I/SecMediaClock(  218): reset
+V/AwesomePlayer(  218): initAudioDecoder
+D/AwesomePlayer(  218): Tunnel Mime Type: audio/vorbis, object alive = 0, mTunnelAliveAP = 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+I/AudioPolicyManagerBase(  218): ### curdevice : 2
+D/AwesomePlayer(  218): initAudioDecoder() curDev : 2, channelCount : 2
+D/AwesomePlayer(  218): Normal Audio Playback
+I/OMXCodec(  218): OMXCodec::Create mime (audio/vorbis), flags (0), matchComponentName ((null)), createEncoder (0)
+I/OMXCodec(  218): Attempting to allocate OMX node 'OMX.google.vorbis.decoder'
+I/OMXCodec(  218): Successfully allocated OMX node 'OMX.google.vorbis.decoder'
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] OMXCodec::start mState=1
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] allocating 4 buffers of size 8192 on input port
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] allocating 4 buffers of size 32768 on output port
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] Now Idle. Component sends idle done Event 
+V/AwesomePlayer(  218): finishAsyncPrepare_l
+V/AwesomePlayer(  218): notifyListner_l() msg (5-MEDIA_SET_VIDEO_SIZE), ext1 (0), ext2 (0)
+V/MediaPlayerService(  218): [217] notify (0x43b32210, 5, 0, 0)
+V/AwesomePlayer(  218): notifyListner_l() msg (1-MEDIA_PREPARED), ext1 (0), ext2 (0)
+V/MediaPlayerService(  218): [217] notify (0x43b32210, 1, 0, 0)
+V/MediaPlayer( 1021): message received msg=5, ext1=0, ext2=0
+V/MediaPlayer( 1021): New video size 0 x 0
+V/MediaPlayer( 1021): callback application
+V/MediaPlayer( 1021): back from callback
+V/MediaPlayer( 1021): message received msg=1, ext1=0, ext2=0
+V/MediaPlayer( 1021): prepared
+V/MediaPlayer( 1021): signal application thread
+V/MediaPlayer( 1021): callback application
+V/MediaPlayer( 1021): back from callback
+V/MediaPlayer( 1021): prepare complete - status=0
+I/AudioService(  739):  AudioFocus  requestAudioFocus() from 1021 focusChangeHint:3
+I/SurfaceFlinger(  212): id=449(6) createSurf 0x40748fa4 (1x1),1 flag=4, Nessage
+V/MediaPlayer-JNI( 1021): start
+V/MediaPlayer( 1021): start
+V/MediaPlayerService(  218): [217] setLooping(0)
+V/StagefrightPlayer(  218): setLooping
+V/AwesomePlayer(  218): setLooping (0)
+V/MediaPlayerService(  218): [217] setVolume(1.000000, 1.000000)
+V/AudioSink(  218): setVolume(1.000000, 1.000000)
+V/MediaPlayerService(  218): [217] setAuxEffectSendLevel(0.000000)
+V/AudioSink(  218): setAuxEffectSendLevel(0.000000)
+V/MediaPlayerService(  218): [217] start
+V/StagefrightPlayer(  218): setLooping
+V/AwesomePlayer(  218): setLooping (0)
+V/StagefrightPlayer(  218): start
+V/AwesomePlayer(  218): play
+V/AwesomePlayer(  218): AwesomePlayer::play_l():: This is not a DRM content
+W/AwesomePlayer(  218): Trying to create tunnel player mIsTunnelAudio 0,                         LPAPlayer::objectsAlive 0,                         TunnelPlayer::mTunnelObjectsAlive = 0,                        (mAudioPlayer == NULL) 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+I/AudioPolicyManagerBase(  218): ### curdevice : 2
+D/AwesomePlayer(  218): curDev : 2 before make new LPAPlayer
+D/AwesomePlayer(  218): channelCount : 2
+V/AwesomePlayer(  218): AudioPlayer created, Non-LPA mode mime audio/vorbis duration 2033469
+V/AwesomePlayer(  218): startAudioPlayer_l, sendErrorNotification (0)
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] 0onCmdComplete  mState =  7
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] PORT_DISABLED(1)
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] allocating 4 buffers of size 32768 on output port
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+I/AudioPlayer(  218):  Audioplayer kKeyAudioPCMFormat:1, 2, 0
+I/AudioPlayer(  218):  Audioplayer1 (2, 1)
+D/AudioSink(  218): bufferCount (4) is too small and increased to 12
+V/AudioSink(  218): open(44100, 2, 0x0, 1, 12, 493)
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 44100, format 1, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioSink(  218): setVolume
+V/AudioPolicyManagerBase(  218): getOutput() stream 5, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioSink(  218): start
+V/AudioPolicyManagerBase(  218): startOutput() output 2, stream 5, session 493
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 5, count 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 2
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0002 or null device for output 2
+V/AwesomePlayer(  218): addBatteryData
+V/MediaPlayer-JNI( 1021): release
+V/MediaPlayer( 1021): setListener
+V/MediaPlayer( 1021): disconnect
+V/MediaPlayerService(  218): disconnect(216) from pid 1021
+V/StagefrightPlayer(  218): reset
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AudioSink(  218): stop
+V/AudioSink(  218): +++ close
+V/AudioPolicyManagerBase(  218): releaseOutput() 2
+V/AudioSink(  218): --- close
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] stop mState=4
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] stop() sendCommand(0x11d, OMX_CommandStateSet, OMX_StateIdle)
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] Now Idle. Component sends idle done Event 
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] stopOmxComponent_l() mstate = 1
+I/AudioPlayer(  218): reset out
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+I/SecMediaClock(  218): SecMediaClock destructor
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/StagefrightPlayer(  218): ~StagefrightPlayer
+V/StagefrightPlayer(  218): reset
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/AwesomePlayer(  218): destructor
+V/AwesomePlayer(  218): reset_l()
+V/AwesomePlayer(  218): reset_l() while (mFlags & PREPARING) condition check
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=0)
+V/AwesomePlayer(  218): mAudioTrackVector clear
+V/AwesomePlayer(  218): reset_l() mAudioPlayer successfully deleted
+V/AwesomePlayer(  218): mSecMediaClock clear
+V/MediaPlayer( 1021): destructor
+V/MediaPlayerService(  218): Client(216) destructor pid = 1021
+V/AudioSink(  218): +++ close
+V/AudioSink(  218): --- close
+V/MediaPlayerService(  218): disconnect(216) from pid 1021
+V/MediaPlayer( 1021): disconnect
+I/MediaPlayer( 1021): Don't send intent. msg.arg1 = 0, msg.arg2 = 0
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+E/AudioResampler(  218): Unsupported sample format, 1 bits, 2 channels
+I/AudioResampler(  218): new MM resampler(44100 -> 48000, 2)
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47457000 size:2297856 fd:71
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4006e000 size:4096 fd:89
+D/MotionEngine(  739): [EXEC CAMERA] INIT.......... 
+I/SurfaceFlinger(  212): id=450(7) createSurf 0x40743a3c (1x1),1 flag=4, Uoast
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/PowerManagerService(  739): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=739
+D/qdmemalloc(  212): ion: Mapped buffer base:0x42415000 size:475136 fd:92
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4007e000 size:4096 fd:93
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+E/MP-Decision( 1780): num online cores: 3 reqd : 2 available : 4 rq_depth:0.300000 hotplug_avg_load_dw: 51
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:282.000000
+D/MotionEngine(  739): [MotionEngine] -> PR_MOVE -> Move Recognition Lv(2)
+D/MotionEngine(  739): [@@@ Motion Engine @@@] Event num	71	Occured
+I/MotionRecognitionService(  739):  send 71=FLAT ~~
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:1.000000 hotplug_avg_load_dw: 19
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:146.000000
+D/MotionEngine(  739): [@@@ Motion Engine @@@] GetMotionScenarioId 0.315436 -0.207098 9.921572 0.026950 0.204400 -0.632100 51 20
+D/MotionEngine(  739): [CALIBRATION] Calibration Secess(4)[-0.0039 -0.4995 0.7812]
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47688000 size:2297856 fd:29
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40021000 size:4096 fd:72
+D/qdmemalloc(  212): ion: Mapped buffer base:0x478b9000 size:2297856 fd:73
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40023000 size:4096 fd:84
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/OMXCodec(  218): [OMX.google.vorbis.decoder] End Of Stream
+D/ExtSolo (23128): Wait for Button with text: OK
+V/AwesomePlayer(  218): postAudioEOS delayUs (347489)
+D/MotionEngine(  739): [@@@ Motion Engine @@@] GetMotionScenarioId 0.270545 -0.223858 9.774927 0.108850 0.184450 0.846300 51 20
+D/MotionEngine(  739): [MotionEngine] -> PR_MOVE -> Move Recognition Lv(1)
+D/MotionEngine(  739): [MotionEngine] -> Add2MotionEventQueue(LCD UP Steady(99))
+D/MotionEngine(  739): [@@@ Motion Engine @@@] Event num	99	Occured
+I/MotionRecognitionService(  739):  send 99=LCD_UP_STEADY ~~
+D/MotionEngine(  739): [CALIBRATION] Calibration Secess(5)[0.0262 -0.3868 1.4630]
+D/MotionEngine(  739): [CALIBRATION] File Write[0.0262 -0.3868 1.4630]
+V/AwesomePlayer(  218): onCheckAudioStatus
+V/AwesomePlayer(  218): onCheckAudioStatus() set AUDIO_AT_EOS flag
+V/AwesomePlayer(  218): onStreamDone
+V/AwesomePlayer(  218): MEDIA_PLAYBACK_COMPLETE
+V/AwesomePlayer(  218): notifyListner_l() msg (2-MEDIA_PLAYBACK_COMPLETE), ext1 (0), ext2 (0)
+V/MediaPlayerService(  218): [217] notify (0x43b32210, 2, 0, 0)
+V/AwesomePlayer(  218): cancelPlayerEvents (keepNotifications=1)
+V/AudioSink(  218): stop
+V/MediaPlayer( 1021): message received msg=2, ext1=0, ext2=0
+V/MediaPlayer( 1021): playback complete
+V/MediaPlayer( 1021): callback application
+V/MediaPlayer( 1021): back from callback
+V/AudioPolicyManagerBase(  218): stopOutput() output 2, stream 5, session 493
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 5, count 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0000 force 0 delayMs 192 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0000 or null device for output 2
+I/AudioService(  739):  AudioFocus  abandonAudioFocus() from 1021
+V/AwesomePlayer(  218): addBatteryData
+D/MotionRecognitionManager(  739): @ member 0 =  
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 5
+E/Sensors (  739): Acc old sensor_state 3, new sensor_state : 2 en : 0
+D/SensorService(  739): SensorDevice::activating sensor handle=0 ns=20000000 
+D/SensorService(  739): SensorService :: controlMotionSensor = 5
+D/SensorManager(  739): JNI - control_motion_sensor
+D/SensorManager(  739): control_motion_sensor
+D/Sensors (  739): controlMotionSensor : Command = 7
+E/Sensors (  739): Gyro old sensor_state 2, new sensor_state : 0 en : 0
+D/SensorService(  739): SensorDevice::activating sensor handle=3 ns=20000000 
+D/SensorService(  739): SensorService :: controlMotionSensor = 7
+D/SensorManager(  739): JNI - control_motion_sensor
+D/SensorManager(  739): unregisterListener::  
+D/SensorService(  739): MotionSensor::activate (ident=0x7176aed8, enabled=0)
+D/SContextService(  739): .unregisterCallback, used =2
+D/SContextService(  739): 	.unregisterCallback : 2, client=android.view.WindowOrientationListener$SContextListenerImpl@42791588
+D/SContextManager(  739):   .unregisterListener : service =Auto Rotation
+I/MotionRecognitionManager(  739):   .unregisterListener : / listener count = 1->0,  
+D/MotionRecognitionService(  739):   .unregisterCallback : 0, client= 
+D/MotionRecognitionService(  739):   .finalizeMotionEngine
+I/STATUSBAR-NotificationService(  739): UnReg. OverTurn
+D/ExtSolo (23128): Click on Button with text: OK
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/lights  (  739): button : 0 +
+D/lights  (  739): button : 0 -
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/Monitor (  739): SIOPLevel:: Name = Level0, ArmFreq = -1(-1), ArmCoreNum = -1, ChargeCurrent = -1, LCDBrightness = -1, Flash = false, ACL = false, Temp = -1, recordingStop = false
+I/AmoledAdjustTimer(  739): prevTemp = 256, currTemp = 257, prevStep = 4, currStep = 4
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x0
+D/lights  (  739): button : 1 +
+D/lights  (  739): button : 1 -
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+I/InputDispatcher(  739): Delivering touch to current input target: action: 0x1
+D/GestureDetector(23128): [Surface Touch Event] mSweepDown False, mLRSDCnt : -1 mTouchCnt : 2 mFalseSizeCnt:0
+I/AudioPolicyManagerBase(  218): getSituationVolume: isBTConnected:0 isHeadConnected:0
+V/AudioPolicyManagerBase(  218): getParamFromPolicy  deviceInt = 0, situationInt = 1, situationVolume = 0.800000
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): getOutput() stream 1, samplingRate 48000, format 1, channelMask 1, flags 4
+V/AudioPolicyManagerBase(  218): getOutputsForDevice device 0002 -> 0002
+V/AudioPolicyManagerBase(  218): getOutput() returns output 2
+V/AudioPolicyManagerBase(  218): startOutput() output 2, stream 1, session 494
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 1, count 1
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 2
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0002 force 0 delayMs 0 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0002 or null device for output 2
+V/AudioPolicyManagerBase(  218): releaseOutput() 2
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:29
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:72
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:73
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:84
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47688000 size:2297856 fd:29
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404b1000 size:4096 fd:42
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:71
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:89
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+E/ViewRootImpl(23128): sendUserActionEvent() mView == null
+W/InputMethodManagerService(  739): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@44d24d18 attribute=null, token = android.os.BinderProxy@44d99b70
+V/AudioPolicyManagerBase(  218): stopOutput() output 2, stream 1, session 494
+V/AudioPolicyManagerBase(  218): changeRefCount() stream 1, count 0
+V/AudioPolicyManagerBase(  218): getNewDevice() selected device 0
+V/AudioPolicyManagerBase(  218): setOutputDevice() output 2 device 0000 force 0 delayMs 192 
+V/AudioPolicyManagerBase(  218): setOutputDevice() prevDevice 0002
+V/AudioPolicyManagerBase(  218): setOutputDevice() setting same device 0000 or null device for output 2
+I/SurfaceFlinger(  212): id=450 Removed Uoast (7/7)
+I/SurfaceFlinger(  212): id=450 Removed Uoast (-2/7)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:475136 offset:0 fd:92
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:93
+D/PowerManagerService(  739): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 739)
+D/PowerManagerService(  739): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=739 (0x0)
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+I/SurfaceFlinger(  212): id=449 Removed Nessage (3/6)
+I/SurfaceFlinger(  212): id=449 Removed Nessage (-2/6)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:2297856 offset:0 fd:29
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:42
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/ExtSolo (23128): Wait for TextView with text: Hello world!
+D/ALSADevice(  218): standby: handle 0x43a8cd40 h 0x0
+V/ALSADevice(  218): standby handle h 0x43b70d60
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _verb value Inactive
+D/alsa_ucm(  218): Set mixer controls for HiFi enable 0
+D/alsa_ucm(  218): Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 0
+V/ALSADevice(  218): Number of modifiers 0
+V/ALSADevice(  218): usecase_type is 0
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _disdev value VR Main Mic
+D/alsa_ucm(  218): disdev: device VR Main Mic not enabled, no need to disable
+D/alsa_ucm(  218): snd_use_case_set(): uc_mgr 0x43904fe8 identifier _disdev value Speaker
+D/alsa_ucm(  218): Set mixer controls for Speaker enable 0
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP1, value: ZERO
+D/alsa_ucm(  218): Setting mixer control: RX5 MIX1 INP2, value: ZERO
+D/alsa_ucm(  218): Setting mixer control: LINEOUT2 Volume, value: 0
+D/alsa_ucm(  218): Setting mixer control: LINEOUT4 Volume, value: 0
+D/alsa_ucm(  218): Setting mixer control: RX5 Digital Volume, value: 0
+D/ExtSolo (23128): Log info in LogCat, tag: "automation debug", msg: "Received 2 pushed notifications correctly: Hello world!
+D/ExtSolo (23128): Device registered as: APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw
+D/ExtSolo (23128): I just sent another notification
+D/ExtSolo (23128): I just sent another notification"
+I/automation debug(23128): Received 2 pushed notifications correctly: Hello world!
+I/automation debug(23128): Device registered as: APA91bFxgTLXLtVVvcJfe32GWqHvy9SWT-0Rh8D40Xkb6CnsPH6AOpctbPQJEv7va5onEflv_sUcKQ7MZDKcE3DFwbp764Cc8JC_u6tt0VcDzTRAkgfVZ822LLD9KnSLIk-Nv8v9sOikdglgctMY18UAxd7giJjEuw
+I/automation debug(23128): I just sent another notification
+I/automation debug(23128): I just sent another notification
+D/ExtSolo (23128): Log info in LogCat, tag: "automation debug", msg: "Done with push notification test at mobile side"
+I/automation debug(23128): Done with push notification test at mobile side
+D/dalvikvm(23128): GC_CONCURRENT freed 418K, 20% free 20662K/25768K, paused 10ms+3ms, total 52ms
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47457000 size:1835008 fd:42
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404b1000 size:4096 fd:60
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:1835008 offset:0 fd:42
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:60
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1337 com.android.server.am.ActivityStack.startPausingLocked:1315 com.android.server.am.ActivityStack.finishActivityLocked:5712 com.android.server.am.ActivityStack.finishActivityLocked:5626 com.android.server.am.ActivityStack.requestFinishActivityLocked:5542 
+I/CustomFrequencyManager(  739): newFrequencyRequest  - mFrequency = 1350000, mTimeoutMs = -1, mPkgName = ACTIVITY_RESUME_BOOSTER@5
+I/CustomFrequencyManager(  739): Boost Request from package = ACTIVITY_RESUME_BOOSTER@5 frequency : 1350000type = 6
+I/CustomFrequencyManager(  739): !! pkgName = ACTIVITY_RESUME_BOOSTER@5
+I/CustomFrequencyManager(  739): Request from package name pkgName = ACTIVITY_RESUME_BOOSTER@5
+I/CustomFrequencyManager(  739): mContext is Not Null  mContext.pkgName = android
+I/CustomFrequencyManager(  739): 2 Old token will be reused!
+I/CustomFrequencyManager(  739): CPUDVFSControlRequest : doFrequencyRequest::  = 1350000 Timeout : -1
+I/power   (  739): *** acquire_dvfs_lock : lockType : 1  freq : 1350000 
+V/SmartFaceService - 3rd party pause(  739): onReceive [android.intent.action.ACTIVITY_STATE/com.ganyo.pushtest/pause]
+D/CustomFrequencyManagerService(  739): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1350000  uid : 1000  pid : 739  pkgName : ACTIVITY_RESUME_BOOSTER@5
+W/ActivityManager(  739): mDVFSHelper.acquire()
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14854 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14514 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14514 com.android.server.am.ActivityManagerService.updateOomAdjLocked:15145 
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14860 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14514 com.android.server.am.ActivityManagerService.computeOomAdjLocked:14514 com.android.server.am.ActivityManagerService.updateOomAdjLocked:15145 
+D/WindowManager(  739): computeScreenConfigurationLocked() set config.orientation=1 dw=1080 dh=1920 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5124 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5093 com.android.server.am.ActivityStack.resumeTopActivityLocked:2558 
+D/PowerManagerService(  739): setKeyboardVisibility: false
+D/Launcher( 1208): onRestart, Launcher: 1111016112
+D/Launcher( 1208): onStart, Launcher: 1111016112
+D/Launcher.HomeView( 1208): onStart
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1337 com.android.server.am.ActivityStack.resumeTopActivityLocked:2622 com.android.server.am.ActivityStack.resumeTopActivityLocked:2169 com.android.server.am.ActivityStack.resumeTopActivityLocked:2155 com.android.server.am.ActivityStack.completePauseLocked:1623 
+V/SmartFaceService - 3rd party pause(  739): onReceive [android.intent.action.ACTIVITY_STATE/com.sec.android.app.launcher/resume]
+I/LSS-II: (  739): proc out:com.sec.android.widgetapp.ap.hero.accuweather,adj=1,i=77
+I/LSS-II: (  739): proc in:com.google.android.apps.plus,adj=13LRU num=81,i=39
+I/LSS-II: (  739): proc in:com.google.android.partnersetup,adj=13LRU num=81,i=38
+I/LSS-II: (  739): proc in:com.sec.android.service.cm,adj=13LRU num=81,i=37
+I/LSS-II: (  739): proc in:com.sec.android.app.FileShareServer,adj=15LRU num=81,i=36
+D/Launcher( 1208): onResume, Launcher: 1111016112
+D/Launcher.HomeView( 1208): onResume
+D/SurfaceWidgetClient$ISurfaceWidgetStub( 1462): [123490] Surface widget resume on instance = 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:174 [0:0] [SWW] onResume : rI = 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:181 [0:0] [SWW] onResume : size = 1
+D/accuweather( 1462): [Accuweather J]>>> DBH:1591 [0:0] gADWI : count = 1
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; 
+D/MenuAppsGridFragment( 1208): onResume
+D/SurfaceWidgetClient$ISurfaceWidgetStub( 1462): [123490] Surface widget visibility changed visibility = true on instance = 1
+D/SurfaceWidgetClient$ISurfaceWidgetStub( 1475): [123490] Surface widget visibility changed visibility = true on instance = 1
+D/SurfaceWidget.Renderer( 1462): [123490] SurfaceWidgetRenderer waiting done: 1 (Thread[Thread-70,5,main])
+D/SurfaceWidget.Renderer( 1462): [123490] SurfaceWidgetRenderer waiting: 1 (Thread[Thread-70,5,main])
+I/LSS-II: (  739): proc in:com.nuance.swype.input,adj=13LRU num=81,i=39
+I/SurfaceFlinger(  212): id=451(69) createSurf 0x4073fa4c (1080x1920),1 flag=4, Mauncher
+D/STATUSBAR-StatusBarManagerService(  739): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+D/PointerIcon(  739): setHoveringSpenIconStyle1 pointerType: 10001iconType:1 flag:0
+D/PointerIcon(  739): setHoveringSpenCustomIcon IconType is same.1
+D/accuweather( 1462): [Accuweather J]>>> WCD:376 [0:0]  onFirstUpdate :: fU = false
+D/accuweather( 1462): [Accuweather J]>>> WCD:456 [0:0]  onResume : fU = false, cnt =1
+D/accuweather( 1462): [Accuweather J]>>> WCD:1171 [0:0] AR_S_T : 0
+D/accuweather( 1462): [Accuweather J]>>> WCD:1220 [0:0] sAS
+D/accuweather( 1462): [Accuweather J]>>> WCD:1227 [0:0] sAS : scroll = 0, size = 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:283 [0:0] hideMsg : mResumeInstnceList[0] = 1
+D/accuweather( 1462): [Accuweather J]>>> WR:632 [0:0] hideMsg : -1, isShow = false
+D/accuweather( 1462): [Accuweather J]>>> WR:638 [0:0] hideMsg : 0
+D/accuweather( 1462): [Accuweather J]>>> WCD:469 [0:0]  onResume :: mFAR = false, cC = false, isa = true
+D/accuweather( 1462): [Accuweather J]>>> WCD:187 [0:0] updateCityList
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.InputMethodManagerService$5.run:2252 java.lang.Thread.run:856 <bottom of call stack> <bottom of call stack> 
+D/accuweather( 1462): [Accuweather J]>>> DBH:1591 [0:0] gADWI : count = 1
+D/accuweather( 1462): [Accuweather J]>>> WR:357 [0:0] =============== updateTime = 1
+D/accuweather( 1462): [Accuweather J]>>> SWW:552 [0:0]  registerTTReceiver ! 
+D/accuweather( 1462): [Accuweather J]>>> WR:395 [0:0] onResume : 1
+D/comsamsunglog( 1462): [Accuweather J]>>> ==============================================================================================
+D/comsamsunglog( 1462): [Accuweather J]>>> widgetappapheroaccuweather [Version : 013040301] [ 1 ] 
+D/comsamsunglog( 1462): [Accuweather J]>>> Header set to : ===> "accuweather" <===
+D/comsamsunglog( 1462): [Accuweather J]>>> ==============================================================================================
+D/SurfaceWidget.Renderer( 1462): [123490] SurfaceWidgetRenderer waiting done: 1 (Thread[Thread-70,5,main])
+D/accuweather( 1462): [Accuweather J]>>> SM:896 [0:0] updateCurrentCityTime : [1]0/1
+D/accuweather( 1462): [Accuweather J]>>> SM:1620 [0:0] drw 1nd Tm dt = Wed, Oct 16
+E/MP-Decision( 1780): num online cores: 1 reqd : 3 available : 4 rq_depth:4.000000 hotplug_avg_load_dw: 51
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:144.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:98.000000
+D/accuweather( 1462): [Accuweather J]>>> SM:1653 [0:0] makeTimeText[1] time :Wed, Oct 16 1:20 PM, new :Wed, Oct 16 1:21 PM
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47457000 size:8355840 fd:64
+I/LSS-II: (  739): proc out:com.sec.android.widgetapp.dualclockdigital,adj=0,i=80
+I/LSS-II: (  739): proc in:com.sec.android.gallery3d,adj=13LRU num=81,i=39
+D/qdmemalloc(  212): ion: Mapped buffer base:0x4004a000 size:4096 fd:89
+D/accuweather( 1462): [Accuweather J]>>> SM:2903 [0:0] onR : isAni = false
+D/accuweather( 1462): [Accuweather J]>>> SWW:497 [0:0] =================== , resume :1
+D/dalvikvm( 1462): GC_FOR_ALLOC freed 2094K, 19% free 25805K/31616K, paused 20ms, total 21ms
+E/MP-Decision( 1780): num online cores: 3 reqd : 4 available : 4 rq_depth:5.000000 hotplug_avg_load_dw: 213
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:2 core_idx:2 Nw:2.700000 Tw:90 total_time_up:0.000000
+E/MP-Decision( 1780): UP cpu:3 core_idx:3 Nw:3.500000 Tw:90 total_time_up:142.000000
+I/LSS-II: (  739): proc out:com.sec.android.widgetapp.easyfavoritescontactswidget,adj=0,i=78
+I/LSS-II: (  739): proc wait in:com.osp.app.signin,adj=11LRU num=81,i=50
+D/accuweather( 1462): [Accuweather J]>>> SM:926 [0:0] updateCityAniType : mCityList.size():1 mCityIndex : 0
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:32
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:59
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:34
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:67
+D/qdoverlay(  212): Set pipe=VG1 dpy=0; 
+V/TaskCloserActivity(22524): TaskCloserActivity onReceive() - com.sec.android.intent.action.HOME_RESUME
+V/WindowManager(  739): Window{42bcb700 u0 Keyguard}mOrientationRequetedFromKeyguard=false
+I/LSS-II: (  739): proc cancel wait in:com.sec.android.widgetapp.programmonitorwidget,adj=0LRU num=81,i=78
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/qdmemalloc(  212): ion: Mapped buffer base:0x47c4f000 size:8355840 fd:41
+I/LSS-II: (  739): proc wait in:com.sec.android.app.controlpanel,adj=9LRU num=81,i=68
+I/LSS-II: (  739): proc wait in:com.google.android.googlequicksearchbox,adj=11LRU num=81,i=50
+D/qdmemalloc(  212): ion: Mapped buffer base:0x404ae000 size:4096 fd:34
+D/Mms/UIEventReceiver( 1842): ui event
+I/LSS-II: (  739): proc out:com.sec.android.SimpleWidget,adj=0,i=79
+I/LSS-II: (  739): proc in:com.google.android.apps.maps:FriendService,adj=13LRU num=81,i=39
+I/LSS-II: (  739): proc wait in:com.google.android.apps.maps:LocationFriendService,adj=11LRU num=81,i=49
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+E/MP-Decision( 1780): num online cores: 4 reqd : 2 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 34
+E/MP-Decision( 1780): DOWN cpu:3 core_idx:3 Ns:3.100000 Ts:240 total_time_down:245.000000
+E/MP-Decision( 1780): DOWN cpu:2 core_idx:2 Ns:2.100000 Ts:240 total_time_down:245.000000
+I/power   (  739): *** release_dvfs_lock : lockType : 1 
+D/CustomFrequencyManagerService(  739): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1350000  uid : 1000  pid : 739  tag : ACTIVITY_RESUME_BOOSTER@5
+W/ActivityManager(  739): mDVFSHelper.release()
+E/MP-Decision( 1780): num online cores: 2 reqd : 1 available : 4 rq_depth:0.000000 hotplug_avg_load_dw: 26
+E/MP-Decision( 1780): DOWN cpu:1 core_idx:1 Ns:1.100000 Ts:190 total_time_down:289.000000
+I/SurfaceFlinger(  212): id=444 Removed NainActivit (4/6)
+I/SurfaceFlinger(  212): id=444 Removed NainActivit (-2/6)
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:8355840 offset:0 fd:77
+D/qdmemalloc(  212): ion: unmap_buffer base:0x0 size:4096 offset:0 fd:81
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4177, temperature: 258, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+W/InputDispatcher(  739): Permission denied: injecting event from pid 23128 uid 10190 to window Window{449601c0 u0 com.sec.android.app.launcher/com.android.launcher2.Launcher} owned by uid 10046
+W/InputManager(  739): Input event injection from pid 23128 permission denied.
+E/Watchdog(  739): !@Sync 1271
+D/dalvikvm(23128): GC_EXPLICIT freed 588K, 23% free 20076K/25768K, paused 6ms+6ms, total 60ms
+D/dalvikvm(23128): GC_EXPLICIT freed 10K, 23% free 20065K/25768K, paused 9ms+3ms, total 42ms
+I/TestRunner(23128): finished: testPushNotification(com.ganyo.pushtest.test.MainActivityTest)
+I/TestRunner(23128): passed: testPushNotification(com.ganyo.pushtest.test.MainActivityTest)
+D/AndroidRuntime(23112): Shutting down VM
+D/dalvikvm(23112): GC_CONCURRENT freed 97K, 14% free 637K/736K, paused 0ms+0ms, total 3ms
+I/ActivityManager(  739): Killing proc 23128:com.ganyo.pushtest/u0a10190: force stop com.ganyo.pushtest
+W/ContextImpl(  739): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1323 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:12344 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3566 com.android.server.am.ActivityManagerService.removeProcessLocked:4771 com.android.server.am.ActivityManagerService.killPackageProcessesLocked:4549 
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/lights  (  739): button : 0 +
+D/lights  (  739): button : 0 -
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4197, temperature: 258, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4191, temperature: 259, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/BatteryService(  739): update start
+E/Watchdog(  739): !@Sync 1272
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4197, temperature: 259, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+V/AlarmManager(  739): waitForAlarm result :8
+V/AlarmManager(  739): ClockReceiver onReceive() ACTION_TIME_TICK
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/accuweather( 1462): [Accuweather J]>>> SWW:566 [0:0] =============== BR act = androidintentactionTIME_TICK
+D/accuweather( 1462): [Accuweather J]>>> SWW:603 [0:0] renderUpdateTime : [0] = 1
+D/accuweather( 1462): [Accuweather J]>>> WR:357 [0:0] =============== updateTime = 1
+D/accuweather( 1462): [Accuweather J]>>> SM:896 [0:0] updateCurrentCityTime : [1]0/1
+D/accuweather( 1462): [Accuweather J]>>> SM:1620 [0:0] drw 1nd Tm dt = Wed, Oct 16
+D/accuweather( 1462): [Accuweather J]>>> SM:1653 [0:0] makeTimeText[1] time :Wed, Oct 16 1:21 PM, new :Wed, Oct 16 1:22 PM
+D/dalvikvm( 1462): GC_FOR_ALLOC freed 1902K, 19% free 25717K/31616K, paused 28ms, total 28ms
+D/accuweather( 1462): [Accuweather J]>>> SM:926 [0:0] updateCityAniType : mCityList.size():1 mCityIndex : 0
+D/qdmemalloc(  212): ion: Mapped buffer base:0x48447000 size:8355840 fd:85
+D/qdmemalloc(  212): ion: Mapped buffer base:0x40363000 size:4096 fd:86
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4198, temperature: 260, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/BatteryService(  739): update start
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4197, temperature: 260, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+I/wpa_supplicant( 1856): Scan requested (ret=0) - scan timeout 30 seconds
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+E/Watchdog(  739): !@Sync 1273
+D/BatteryService(  739): update start
+D/BatteryService(  739): level:88, scale:100, status:2, health:2, present:true, voltage: 4187, temperature: 260, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303318, invalid charger:0, online:4, charge type:1, current avg:460
+D/BatteryService(  739): Sending ACTION_BATTERY_CHANGED.
+D/HeadsetStateMachine( 1499): Disconnected process message: 10
+D/STATUSBAR-BatteryController( 1021): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 1021): onReceive() - BATTERY_STATUS_CHARGING:
+D/STATUSBAR-PhoneStatusBar( 1021): NORMAL_BATTERY
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+I/wpa_supplicant( 1856): nl80211: Received scan results (37 BSSes)
+D/Tethering(  739): interfaceLinkStateChanged wlan0, true
+D/Tethering(  739): interfaceStatusChanged wlan0, true
+I/WifiStateMachine(  739): There are no configured NW[0] in scanResults
+I/WifiStateMachine(  739): There are no configured NW[2] in scanResults
+I/WifiStateMachine(  739): There are no configured NW[3] in scanResults
+D/dalvikvm( 1280): GC_CONCURRENT freed 342K, 13% free 17484K/19920K, paused 3ms+2ms, total 43ms
+E/QcrilMsgTunnelSocket(21185): IOExceptionjava.io.IOException: No such file or directoryReason: No such file or directory
+D/qdoverlay(  212): Unset pipe=VG0 dpy=0; Unset pipe=VG1 dpy=0; Unset pipe=RGB1 dpy=0; 
+D/STATUSBAR-NetworkController( 1021): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+D/STATUSBAR-NetworkController( 1021): refreshSignalCluster: data=0 bt=false
+D/qdoverlay(  212): Set pipe=RGB1 dpy=0; Set pipe=VG0 dpy=0; Set pipe=VG1 dpy=0; 
+I/Monitor (  739): SIOP:: Current AP = 330, CP = 0
+E/MP-Decision( 1780): num online cores: 1 reqd : 2 available : 4 rq_depth:2.100000 hotplug_avg_load_dw: 65
+E/MP-Decision( 1780): UP cpu:1 core_idx:1 Nw:1.900000 Tw:140 total_time_up:49.000000

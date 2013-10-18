@@ -1,0 +1,41 @@
+
+10-18-13 13:45:14 INFO [org.openqa.selenium.server.SeleniumServer] - Java: Apple Inc. 20.51-b01-457
+10-18-13 13:45:14 INFO [org.openqa.selenium.server.SeleniumServer] - OS: Mac OS X 10.8.5 x86_64
+10-18-13 13:45:14 INFO [org.openqa.selenium.server.SeleniumServer] - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+10-18-13 13:45:14 INFO [org.openqa.selenium.server.SeleniumServer] - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+10-18-13 13:45:14 INFO [org.openqa.jetty.http.HttpServer] - Version Jetty/5.1.x
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Container] - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Container] - Started HttpContext[/selenium-server,/selenium-server]
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Container] - Started HttpContext[/,/]
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Container] - Started org.openqa.jetty.jetty.servlet.ServletHandler@18330bf
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Container] - Started HttpContext[/wd,/wd]
+10-18-13 13:45:14 INFO [org.openqa.jetty.http.SocketListener] - Started SocketListener on 0.0.0.0:4444
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Container] - Started org.openqa.jetty.jetty.Server@455fc40c
+10-18-13 13:45:14 INFO [com.apigee.test.base.SeleniumRCListener] - The selenium RC server started....
+
+10-18-13 13:45:14 INFO [org.openqa.jetty.util.Credential] - Checking Resource aliases
+10-18-13 13:45:17 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Start to test iOS push notifications
+10-18-13 13:45:19 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //input[@id="email"] is present
+10-18-13 13:45:19 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //input[@id="password"] is present
+10-18-13 13:45:19 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Enter email, joewright391@gmail.com, and password, Test1238,
+10-18-13 13:45:19 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //button[@id="btnSubmit"] is present
+10-18-13 13:45:21 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the text: Dashboard
+10-18-13 13:45:21 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Log in the account
+10-18-13 13:45:21 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the element: //div[@id='dashboard_container']/div[2]/div/div[2]/div/button[@class="btn btn-xtralarge open portal"]
+10-18-13 13:45:51 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the uuid: 
+10-18-13 13:45:51 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the element: //div[@id='sidebar-menu']/ul/li[5]/a[@id="notifications-link"]
+10-18-13 13:46:32 ERROR [com.apigee.test.pushios.TestPushNotificationiOS] - Error cannot logout in 30 seconds, no dp
+10-18-13 13:46:32 ERROR [com.apigee.test.pushios.TestPushNotificationiOS] - Error during appPushNotification: Failed to add a notifier (Apple iOS)
+10-18-13 13:46:37 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Access the dashboard
+10-18-13 13:46:37 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - //a[@id="email_id"] is present
+10-18-13 13:46:41 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Found the text: Sign in to your Apigee account
+10-18-13 13:46:41 INFO [com.apigee.test.pushios.TestPushNotificationiOS] - Log out successfully
+10-18-13 13:46:42 INFO [org.openqa.selenium.server.SeleniumServer] - Shutting down...
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.ThreadedServer] - Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=4444]
+10-18-13 13:46:42 INFO [org.openqa.jetty.http.SocketListener] - Stopped SocketListener on 0.0.0.0:4444
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.Container] - Stopped HttpContext[/selenium-server/driver,/selenium-server/driver]
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.Container] - Stopped HttpContext[/selenium-server,/selenium-server]
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.Container] - Stopped HttpContext[/,/]
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.Container] - Stopped org.openqa.jetty.jetty.servlet.ServletHandler@18330bf
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.Container] - Stopped HttpContext[/wd,/wd]
+10-18-13 13:46:42 INFO [org.openqa.jetty.util.Container] - Stopped org.openqa.jetty.jetty.Server@455fc40c
