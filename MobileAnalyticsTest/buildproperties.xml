@@ -1,0 +1,26 @@
+<project default="">
+   <!-- Directory structure of the project -->
+	<property name="src.dir" value="${basedir}/src" />
+   <property name="build.dir" value="${basedir}/build" />
+   <property name="result.dir" value="${basedir}/test-result" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="testSuite.dir" value="${basedir}/testSuite" />
+	<property name="test.class.dir" value="${build.dir}/classes" />
+	<property name="test.failed.dir" value="${basedir}/rerun-result" />
+	<property name="test.rerun.dir" value="${basedir}/test-output" />
+	<property name="testng.home" value="${lib.dir}" />
+		
+	<!--  Define Path for Compiling Java  -->
+	<path id="compile.classpath">   
+    	<fileset dir="${lib.dir}">
+        	<include name="**/*.jar"/>
+      </fileset>
+	</path>
+
+	<!--Define Path for Run Test Suite -->
+	<path id="runtest.classpath">   
+    	<path refid="compile.classpath" />
+		<pathelement location="${test.class.dir}" />
+	</path>
+
+</project>
