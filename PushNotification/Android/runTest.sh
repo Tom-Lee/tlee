@@ -48,7 +48,6 @@ then
 	exit 1
 fi
 
-echo "The device's serial id is ====> $deviceId"
 echo 'Run the web portal push notification test'
 cd $web
 ./runAndroid.sh &
@@ -77,7 +76,7 @@ fi
 echo ''
 count1=`echo $(grep 'Error' $webLog | wc -l | cut -d' ' -f -8)`
 count2=`echo $(wc -l $webLog | cut -d' ' -f -7)`
-if [[ $count1 -eq 0 && $count2 -gt 24 ]]
+if [[ $count1 -eq 0 && $count2 -gt 20 ]]
 then 
        	echo ' 2. The Android push notification test passed at the web'  
 else
