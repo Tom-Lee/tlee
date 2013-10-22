@@ -1,0 +1,19 @@
+
+10-21-13 15:56:18 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Start to test App Mobile Analytics pages
+10-21-13 15:56:23 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //input[@id="email"] is present
+10-21-13 15:56:23 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //input[@id="password"] is present
+10-21-13 15:56:23 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Enter email, crenuhere@gmail.com, and password, Testtest_11,
+10-21-13 15:56:23 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //button[@id="btnSubmit"] is present
+10-21-13 15:56:25 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the text: Dashboard
+10-21-13 15:56:25 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Log in the account
+10-21-13 15:56:25 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the element: //div[@id='dashboard_container']/div[3]/div[1]/div[2]/div[1]/button
+10-21-13 15:56:25 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Click 'Open Analytics'
+10-21-13 15:56:35 ERROR [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - ERROR: Couldn't access document.body.  Is this HTML page fully loaded?
+10-21-13 15:56:35 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - App Overview is present
+10-21-13 15:57:05 ERROR [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Error cannot logout in 30 seconds, no //tbody/tr[@class=""]/td[5]/a[2]/div[@class="monitor-btn"]
+10-21-13 15:57:05 ERROR [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Error during appMobileAnalyticsERROR: Element link=App Logs Analysis not found
+10-21-13 15:57:10 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Access the dashboard
+10-21-13 15:57:10 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - //a[@id="email_id"] is present
+10-21-13 15:57:14 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Found the text: Sign in to your Apigee account
+10-21-13 15:57:14 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - Log out successfully
+10-21-13 15:57:14 INFO [com.apigee.test.appMobileAnalytics.TestAppMobileAnalytics] - End to test App Mobile Analytics pages

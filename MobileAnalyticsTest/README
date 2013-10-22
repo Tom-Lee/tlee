@@ -1,0 +1,8 @@
+1. Compile from command line:
+	 
+	-> ant ("compile" is set as default target. So ant is for compile only. )
+	
+	-> ant clean (It is to delete the built file and clean up.)
+	
+2. Run test target
+	-> ant doLoginLogout (Run doLoginLogout test.)	
